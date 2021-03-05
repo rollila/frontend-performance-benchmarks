@@ -1,0 +1,21 @@
+<div>
+  <div>
+    <label>Number of components</label>
+    <input
+      id="input-components"
+      type="number"
+      min="1"
+      :value="numChildren"
+      (change)="onChange($event)"
+    />
+    <button id="btn-generate" (click)="generate()">Generate</button>
+    <button id="btn-update" (click)="update()">Update children</button>
+    <button id="btn-update-single" (click)="updateSingle()">
+      Update single child
+    </button>
+  </div>
+  <sc4-child
+    *ngFor="let child of children; trackBy: trackBy"
+    [value]="child.value"
+  ></sc4-child>
+</div>

@@ -1,0 +1,15 @@
+  <span>Prop value: @Value, internal value: @count
+    <button class="cell-btn-increment" @onclick="increment">
+      Update child
+    </button></span>
+
+@code {
+    [Parameter]
+    public int Value { get; set; }
+
+    int count = 0;
+
+    public void increment() {
+        count += 1;
+    }
+}

@@ -1,0 +1,37 @@
+ @using System.Collections;
+ 
+  <div>
+    <div>
+      Row count: @count
+      <button class="row-btn-update-children" @onclick="updateRow">
+        Update children
+      </button>
+      <button class="row-btn-update-self" @onclick="onInput">Upate parent</button>
+    </div>
+    @{ int i = 0; }
+    @foreach(Column c in columns) {
+        <Cell @key="c.id" Value="@getValue(i)" />
+        i++;
+    }
+  </div>
+
+@code {
+    [Parameter] 
+    public List<Column> columns { get; set; }
+
+    int count = 0;
+    int offset = 0;
+
+    public void onInput() {
+        count += 1;
+    }
+
+    public void updateRow() {
+        offset += 1;
+    }
+
+    public int getValue(int i) {
+        return i + offset;
+    }
+
+}

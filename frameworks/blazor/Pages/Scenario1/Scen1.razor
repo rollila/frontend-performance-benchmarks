@@ -1,0 +1,85 @@
+@page "/scenario1"
+@using System.Collections;
+
+<div>
+    <div>
+      <label>Number of components or elements to create</label>
+      <input
+        id="input-num-to-create"
+        type="number"
+        min="1"
+        @bind="numChildren"
+      />
+      <button id="btn-generate-components" @onclick="generateComponents">
+        Generate components
+      </button>
+      <button id="btn-generate-elements" @onclick="generateElements">
+        Generate static elements
+      </button>
+      <button id="btn-switch-child-type" @onclick="switchType">
+        Change child component type
+      </button>
+    </div>
+    <div>
+      <button id="btn-delete" @onclick="remove">Delete all components</button>
+      <button id="btn-add-one" @onclick="addOne">Add one component</button>
+    </div>
+    <div>
+      @if(childType == 1) {
+        @foreach(Child c in children) {
+          <Child @key="c.id" Id="@c.id" /> 
+        }
+      }
+      @if(childType == 2) {
+        @foreach(Child c in children) {
+          <Child2 @key="c.id" Id="@c.id" /> 
+        }
+      }      
+      @foreach(int i in elements) {
+        <div>-</div>
+      }
+    </div>
+  </div>
+
+@code {
+
+    public struct Child {
+
+      public Child(int id) {
+        this.id = id;
+      }
+        public int id { get; set; }
+    }
+
+    int numChildren = 0;
+    int childType = 1;
+
+    ArrayList children = new ArrayList();
+    ArrayList elements = new ArrayList();
+
+    private void generateComponents() {
+      for (var i = 0; i < numChildren; i += 1) {
+        children.Add(new Child(i));
+      }
+    }
+
+    private void generateElements() {
+      for (var i = 0; i < numChildren; i += 1) {
+        elements.Add(i);
+      }
+    }
+
+    private void switchType() {
+      this.childType = 2;
+    }
+
+    private void remove() {
+      children.Clear();
+    }
+
+    private void addOne() {
+      children.Add(new Child(children.Count));
+        
+    }
+
+}

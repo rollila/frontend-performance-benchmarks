@@ -1,0 +1,25 @@
+<div>
+  <div>
+    <label>Number of rows</label>
+    <input
+      id="input-rows"
+      type="number"
+      min="1"
+      (change)="onUpdateRows($event)"
+    />
+    <label>Number of columns</label>
+    <input
+      id="input-columns"
+      type="number"
+      min="1"
+      (change)="onUpdateColumns($event)"
+    />
+    <button id="btn-generate" (click)="generate()">Generate</button>
+  </div>
+  <div>
+    <row
+      *ngFor="let row of rows; trackBy: trackBy"
+      [columns]="row.columns"
+    ></row>
+  </div>
+</div>

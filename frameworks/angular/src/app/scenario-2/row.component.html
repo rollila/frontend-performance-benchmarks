@@ -1,0 +1,15 @@
+<div>
+  <div>
+    Row count: {{ count }}
+    <button class="row-btn-update-children" (click)="updateRow()">
+      Update children
+    </button>
+    <button class="row-btn-update-self" (click)="onInput()">
+      Upate parent
+    </button>
+  </div>
+  <cell
+    *ngFor="let column of columns; index as i; trackBy: trackBy"
+    [value]="i + offset"
+  ></cell>
+</div>

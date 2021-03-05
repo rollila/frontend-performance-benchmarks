@@ -1,0 +1,56 @@
+@using blazor2.Pages.Scenario1;
+@using blazor2.Pages.Scenario2;
+@using blazor2.Pages.Scenario3;
+@using blazor2.Pages.Scenario4;
+@page "/"
+
+    <div>
+    @if (selectedScenario == null) {
+      <div>
+        <h4>Select scenario</h4>
+        <div>
+          <div>
+            <label>Scenario 1: Generate and delete components</label>
+            <button id="btn-scen-1" @onclick="@(e => selectScenario(1))">Select</button>
+          </div>
+          <div>
+            <label>Scenario 2: Update components in a flat DOM tree</label>
+            <button id="btn-scen-2" @onclick="@(e => selectScenario(2))">Select</button>
+          </div>
+          <div>
+            <label>
+              Scenario 3: Update components in a branching DOM tree
+              <button id="btn-scen-3" @onclick="@(e => selectScenario(3))">Select</button>
+            </label>
+          </div>
+          <div>
+            <label>
+              Scenario 4: Update components containing mostly static content
+              <button id="btn-scen-4" @onclick="@(e => selectScenario(4))">Select</button>
+            </label>
+          </div>
+        </div>
+      </div>
+    }
+    @if(selectedScenario == 1) {
+        <Scen1 />
+    }
+    @if(selectedScenario == 2) {
+        <Scen2 />
+    }
+    @if(selectedScenario == 3) {
+        <Scen3 />
+    }
+    @if(selectedScenario == 4) {
+        <Scen4 />
+    }
+  </div>
+
+@code {
+  Nullable<int> selectedScenario = null;
+      public void selectScenario(int value)
+      {
+          this.selectedScenario = value;
+
+      }
+}

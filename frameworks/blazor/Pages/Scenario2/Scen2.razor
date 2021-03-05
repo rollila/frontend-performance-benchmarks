@@ -1,0 +1,58 @@
+@page "/scenario2"
+@using System.Collections;
+
+<div>
+    <div>
+      <label>Number of rows</label>
+      <input
+        id="input-rows"
+        type="number"
+        min="1"
+        @bind="numRows"
+      />
+      <label>Number of columns</label>
+      <input
+        id="input-columns"
+        type="number"
+        min="1"
+        @bind="numColumns"
+      />
+      <button id="btn-generate" @onclick="generate">
+        Generate
+      </button>
+    </div>
+    <div>
+        @foreach(Row r in rows) {
+            <Row @key="r.id" Columns="@r.columns" />
+        }
+    </div>
+  </div>
+
+@code {
+
+
+    public struct Row {
+        public Row(int id, List<Column> columns) {
+            this.id = id;
+            this.columns = columns;
+        }
+
+        public List<Column> columns;
+        public int id;
+    }
+
+    int numRows = 0;
+    int numColumns = 0;
+
+    List<Row> rows = new List<Row>();
+
+    public void generate() {
+        for (int i = 0; i < numRows; i += 1) {
+            Row row = new Row(i, new List<Column>());
+            for (int y = 0; y < numColumns; y += 1) {
+                row.columns.Add(new Column($"row{i}-col{y}"));
+            }
+            rows.Add(row);
+        }
+    }
+}

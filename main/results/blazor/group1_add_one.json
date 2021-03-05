@@ -1,0 +1,1779 @@
+[
+  {
+    "numCreated": 1,
+    "raw": [
+      {
+        "scriptTime": 3361,
+        "totalTime": 7199,
+        "gc": 0,
+        "(idle)": 2601,
+        "(program)": 1237,
+        "totalTimeOld": 36803
+      },
+      {
+        "scriptTime": 3355,
+        "totalTime": 6974,
+        "gc": 0,
+        "(idle)": 2693,
+        "(program)": 926,
+        "totalTimeOld": 36342
+      },
+      {
+        "scriptTime": 3045,
+        "totalTime": 6886,
+        "gc": 0,
+        "(idle)": 3219,
+        "(program)": 622,
+        "totalTimeOld": 36169
+      },
+      {
+        "scriptTime": 6388,
+        "totalTime": 8955,
+        "gc": 0,
+        "(idle)": 2266,
+        "(program)": 301,
+        "totalTimeOld": 39014
+      },
+      {
+        "scriptTime": 3338,
+        "totalTime": 6545,
+        "gc": 0,
+        "(idle)": 2286,
+        "(program)": 921,
+        "totalTimeOld": 35782
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 3897,
+    "totalTime": 7312,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 147 },
+      { "name": "LayoutCount", "value": 0.7777777777777777 },
+      { "name": "RecalcStyleCount", "value": 0.8125 },
+      { "name": "LayoutDuration", "value": 0.00011604159999999998 },
+      { "name": "RecalcStyleDuration", "value": 0.00005589197530864197 },
+      { "name": "ScriptDuration", "value": 0.0036753740108288217 },
+      { "name": "TaskDuration", "value": 0.03434628662109375 },
+      { "name": "TaskOtherDuration", "value": 0.000362468526139308 },
+      { "name": "ThreadTime", "value": 0.034337025400000006 },
+      { "name": "JSHeapUsedSize", "value": 2583195.6268014475 },
+      { "name": "JSHeapTotalSize", "value": 7097002.666666667 }
+    ]
+  },
+  {
+    "numCreated": 100,
+    "raw": [
+      {
+        "scriptTime": 1539,
+        "totalTime": 6208,
+        "gc": 0,
+        "(program)": 3435,
+        "(idle)": 1234,
+        "totalTimeOld": 35434
+      },
+      {
+        "scriptTime": 2169,
+        "totalTime": 6812,
+        "gc": 0,
+        "(program)": 3709,
+        "(idle)": 934,
+        "totalTimeOld": 36437
+      },
+      {
+        "scriptTime": 2131,
+        "totalTime": 5910,
+        "gc": 0,
+        "(idle)": 2563,
+        "(program)": 1216,
+        "totalTimeOld": 41692
+      },
+      {
+        "scriptTime": 1530,
+        "totalTime": 5058,
+        "gc": 0,
+        "(idle)": 2598,
+        "(program)": 930,
+        "totalTimeOld": 34653
+      },
+      {
+        "scriptTime": 1535,
+        "totalTime": 6235,
+        "gc": 0,
+        "(program)": 2523,
+        "click": 619,
+        "(idle)": 1558,
+        "totalTimeOld": 35625
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 1781,
+    "totalTime": 6045,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 448 },
+      { "name": "LayoutCount", "value": 1.6296296296296293 },
+      { "name": "RecalcStyleCount", "value": 1.671875 },
+      { "name": "LayoutDuration", "value": 0.0007097840000000002 },
+      { "name": "RecalcStyleDuration", "value": 0.0003334899691358025 },
+      { "name": "ScriptDuration", "value": 0.001872209496043315 },
+      { "name": "TaskDuration", "value": 0.0348155498046875 },
+      { "name": "TaskOtherDuration", "value": 0.0013174990092973634 },
+      { "name": "ThreadTime", "value": 0.034703759499999993 },
+      { "name": "JSHeapUsedSize", "value": 2674964.380848303 },
+      { "name": "JSHeapTotalSize", "value": 7118848 }
+    ]
+  },
+  {
+    "numCreated": 200,
+    "raw": [
+      {
+        "scriptTime": 2134,
+        "totalTime": 5293,
+        "gc": 0,
+        "(idle)": 1635,
+        "(program)": 1524,
+        "totalTimeOld": 35351
+      },
+      {
+        "scriptTime": 2444,
+        "totalTime": 5636,
+        "gc": 0,
+        "(idle)": 1347,
+        "click": 308,
+        "(program)": 1537,
+        "totalTimeOld": 35412
+      },
+      {
+        "scriptTime": 2436,
+        "totalTime": 5610,
+        "gc": 0,
+        "(idle)": 1956,
+        "(program)": 1218,
+        "totalTimeOld": 35797
+      },
+      {
+        "scriptTime": 2434,
+        "totalTime": 5916,
+        "gc": 0,
+        "(idle)": 1973,
+        "(program)": 1509,
+        "totalTimeOld": 36350
+      },
+      {
+        "scriptTime": 2740,
+        "totalTime": 5895,
+        "gc": 0,
+        "(idle)": 2243,
+        "(program)": 912,
+        "totalTimeOld": 36175
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 2438,
+    "totalTime": 5670,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 748 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0002515808 },
+      { "name": "RecalcStyleDuration", "value": 0.00007685956790123457 },
+      { "name": "ScriptDuration", "value": 0.0023514756351520195 },
+      { "name": "TaskDuration", "value": 0.034209352783203126 },
+      { "name": "TaskOtherDuration", "value": 0.0008908705989940557 },
+      { "name": "ThreadTime", "value": 0.034219842599999994 },
+      { "name": "JSHeapUsedSize", "value": 2783218.5981831844 },
+      { "name": "JSHeapTotalSize", "value": 7118848 }
+    ]
+  },
+  {
+    "numCreated": 300,
+    "raw": [
+      {
+        "scriptTime": 2438,
+        "totalTime": 7116,
+        "gc": 0,
+        "(idle)": 3148,
+        "(program)": 1530,
+        "totalTimeOld": 36580
+      },
+      {
+        "scriptTime": 3044,
+        "totalTime": 7126,
+        "gc": 0,
+        "(idle)": 2845,
+        "(program)": 1237,
+        "totalTimeOld": 37208
+      },
+      {
+        "scriptTime": 3001,
+        "totalTime": 6798,
+        "gc": 0,
+        "(idle)": 2576,
+        "(program)": 1221,
+        "totalTimeOld": 36670
+      },
+      {
+        "scriptTime": 3046,
+        "totalTime": 6505,
+        "gc": 0,
+        "(idle)": 2247,
+        "(program)": 1212,
+        "totalTimeOld": 36618
+      },
+      {
+        "scriptTime": 3347,
+        "totalTime": 5586,
+        "gc": 0,
+        "(idle)": 2239,
+        "totalTimeOld": 35751
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 2975,
+    "totalTime": 6626,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 1048 },
+      { "name": "LayoutCount", "value": 0.6666666666666666 },
+      { "name": "RecalcStyleCount", "value": 0.75 },
+      { "name": "LayoutDuration", "value": 0.0002234176 },
+      { "name": "RecalcStyleDuration", "value": 0.00007194444444444444 },
+      { "name": "ScriptDuration", "value": 0.0028481307788421496 },
+      { "name": "TaskDuration", "value": 0.034668807373046874 },
+      { "name": "TaskOtherDuration", "value": 0.0008331592745008383 },
+      { "name": "ThreadTime", "value": 0.0343191689 },
+      { "name": "JSHeapUsedSize", "value": 2883518.129362749 },
+      { "name": "JSHeapTotalSize", "value": 7100491.851851853 }
+    ]
+  },
+  {
+    "numCreated": 400,
+    "raw": [
+      {
+        "scriptTime": 3665,
+        "totalTime": 7457,
+        "gc": 0,
+        "(idle)": 2564,
+        "(program)": 1228,
+        "totalTimeOld": 37892
+      },
+      {
+        "scriptTime": 3624,
+        "totalTime": 5858,
+        "gc": 0,
+        "(idle)": 1932,
+        "(program)": 302,
+        "totalTimeOld": 35894
+      },
+      {
+        "scriptTime": 3047,
+        "totalTime": 6722,
+        "gc": 0,
+        "(idle)": 3675,
+        "totalTimeOld": 36635
+      },
+      {
+        "scriptTime": 3382,
+        "totalTime": 11459,
+        "gc": 0,
+        "(program)": 6529,
+        "(idle)": 1548,
+        "totalTimeOld": 41035
+      },
+      {
+        "scriptTime": 3344,
+        "totalTime": 7165,
+        "gc": 0,
+        "(idle)": 1982,
+        "querySelector": 307,
+        "(program)": 1532,
+        "totalTimeOld": 39130
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 3412,
+    "totalTime": 7732,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 1348 },
+      { "name": "LayoutCount", "value": 0.9753086419753085 },
+      { "name": "RecalcStyleCount", "value": 0.94140625 },
+      { "name": "LayoutDuration", "value": 0.0006294352 },
+      { "name": "RecalcStyleDuration", "value": 0.00023035493827160494 },
+      { "name": "ScriptDuration", "value": 0.003484038317367763 },
+      { "name": "TaskDuration", "value": 0.03625009790039063 },
+      { "name": "TaskOtherDuration", "value": 0.0009718140527358634 },
+      { "name": "ThreadTime", "value": 0.036137305099999996 },
+      { "name": "JSHeapUsedSize", "value": 2952860.086059696 },
+      { "name": "JSHeapTotalSize", "value": 7118848 }
+    ]
+  },
+  {
+    "numCreated": 500,
+    "raw": [
+      {
+        "scriptTime": 4259,
+        "totalTime": 8920,
+        "gc": 0,
+        "(idle)": 2554,
+        "(program)": 2107,
+        "totalTimeOld": 44132
+      },
+      {
+        "scriptTime": 4253,
+        "totalTime": 8026,
+        "gc": 0,
+        "(idle)": 2251,
+        "(program)": 1522,
+        "totalTimeOld": 38584
+      },
+      {
+        "scriptTime": 3956,
+        "totalTime": 8976,
+        "gc": 0,
+        "(idle)": 3194,
+        "(program)": 1826,
+        "totalTimeOld": 43962
+      },
+      {
+        "scriptTime": 3957,
+        "totalTime": 6541,
+        "gc": 0,
+        "(idle)": 2286,
+        "(program)": 298,
+        "totalTimeOld": 36821
+      },
+      {
+        "scriptTime": 3967,
+        "totalTime": 8112,
+        "gc": 0,
+        "(idle)": 2616,
+        "(program)": 1529,
+        "totalTimeOld": 38424
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 4078,
+    "totalTime": 8115,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 1648 },
+      { "name": "LayoutCount", "value": 0.7777777777777777 },
+      { "name": "RecalcStyleCount", "value": 0.8125 },
+      { "name": "LayoutDuration", "value": 0.0003281296 },
+      { "name": "RecalcStyleDuration", "value": 0.00009201774691358026 },
+      { "name": "ScriptDuration", "value": 0.00411121241149521 },
+      { "name": "TaskDuration", "value": 0.040010085937499995 },
+      { "name": "TaskOtherDuration", "value": 0.0009909158664837677 },
+      { "name": "ThreadTime", "value": 0.040431036000000004 },
+      { "name": "JSHeapUsedSize", "value": 3063279.1090772487 },
+      { "name": "JSHeapTotalSize", "value": 7097002.666666667 }
+    ]
+  },
+  {
+    "numCreated": 600,
+    "raw": [
+      {
+        "scriptTime": 4565,
+        "totalTime": 9000,
+        "gc": 0,
+        "(idle)": 2906,
+        "(program)": 1529,
+        "totalTimeOld": 39163
+      },
+      {
+        "scriptTime": 4868,
+        "totalTime": 8952,
+        "gc": 0,
+        "(idle)": 2264,
+        "(program)": 1820,
+        "totalTimeOld": 39540
+      },
+      {
+        "scriptTime": 5497,
+        "totalTime": 15045,
+        "gc": 0,
+        "(program)": 8636,
+        "(idle)": 912,
+        "totalTimeOld": 45002
+      },
+      {
+        "scriptTime": 4860,
+        "totalTime": 8670,
+        "gc": 0,
+        "(idle)": 1688,
+        "(program)": 2122,
+        "totalTimeOld": 39759
+      },
+      {
+        "scriptTime": 4569,
+        "totalTime": 9619,
+        "gc": 0,
+        "(idle)": 2600,
+        "(program)": 2450,
+        "totalTimeOld": 39883
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 4872,
+    "totalTime": 10257,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 1948 },
+      { "name": "LayoutCount", "value": 1.1481481481481481 },
+      { "name": "RecalcStyleCount", "value": 1.140625 },
+      { "name": "LayoutDuration", "value": 0.000857664 },
+      { "name": "RecalcStyleDuration", "value": 0.0003102422839506173 },
+      { "name": "ScriptDuration", "value": 0.004777010412328197 },
+      { "name": "TaskDuration", "value": 0.03808428784179688 },
+      { "name": "TaskOtherDuration", "value": 0.001275133668648072 },
+      { "name": "ThreadTime", "value": 0.03770538589999999 },
+      { "name": "JSHeapUsedSize", "value": 3233453.1105798795 },
+      { "name": "JSHeapTotalSize", "value": 7303939.160493826 }
+    ]
+  },
+  {
+    "numCreated": 700,
+    "raw": [
+      {
+        "scriptTime": 4883,
+        "totalTime": 16549,
+        "gc": 0,
+        "(program)": 10434,
+        "": 311,
+        "(idle)": 921,
+        "totalTimeOld": 47053
+      },
+      {
+        "scriptTime": 5174,
+        "totalTime": 9470,
+        "gc": 0,
+        "(idle)": 1953,
+        "querySelector": 314,
+        "(program)": 2029,
+        "totalTimeOld": 40007
+      },
+      {
+        "scriptTime": 5161,
+        "totalTime": 11669,
+        "gc": 0,
+        "(idle)": 4379,
+        "(program)": 2129,
+        "totalTimeOld": 41980
+      },
+      {
+        "scriptTime": 5174,
+        "totalTime": 8937,
+        "gc": 0,
+        "(idle)": 1936,
+        "(program)": 1827,
+        "totalTimeOld": 40152
+      },
+      {
+        "scriptTime": 5480,
+        "totalTime": 9235,
+        "gc": 0,
+        "(idle)": 1931,
+        "(program)": 1824,
+        "totalTimeOld": 44269
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 5174,
+    "totalTime": 11172,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 2248 },
+      { "name": "LayoutCount", "value": 1.1975308641975306 },
+      { "name": "RecalcStyleCount", "value": 1.31640625 },
+      { "name": "LayoutDuration", "value": 0.0021546128 },
+      { "name": "RecalcStyleDuration", "value": 0.0011132692901234568 },
+      { "name": "ScriptDuration", "value": 0.005282303206997084 },
+      { "name": "TaskDuration", "value": 0.04364966455078125 },
+      { "name": "TaskOtherDuration", "value": 0.002375283340954123 },
+      { "name": "ThreadTime", "value": 0.04404514200000001 },
+      { "name": "JSHeapUsedSize", "value": 3409130.5246909363 },
+      { "name": "JSHeapTotalSize", "value": 7118848 }
+    ]
+  },
+  {
+    "numCreated": 800,
+    "raw": [
+      {
+        "scriptTime": 6079,
+        "totalTime": 9843,
+        "gc": 0,
+        "(idle)": 1941,
+        "(program)": 1823,
+        "totalTimeOld": 41321
+      },
+      {
+        "scriptTime": 5152,
+        "totalTime": 9896,
+        "gc": 0,
+        "(idle)": 2905,
+        "(program)": 1839,
+        "totalTimeOld": 41108
+      },
+      {
+        "scriptTime": 5475,
+        "totalTime": 10499,
+        "gc": 0,
+        "(idle)": 2593,
+        "(program)": 2431,
+        "totalTimeOld": 41344
+      },
+      {
+        "scriptTime": 5474,
+        "totalTime": 9611,
+        "gc": 0,
+        "(idle)": 2302,
+        "(program)": 1835,
+        "totalTimeOld": 40065
+      },
+      {
+        "scriptTime": 6147,
+        "totalTime": 17856,
+        "gc": 0,
+        "(program)": 10792,
+        "(idle)": 917,
+        "totalTimeOld": 48418
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 5665,
+    "totalTime": 11541,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 2548 },
+      { "name": "LayoutCount", "value": 1.3333333333333333 },
+      { "name": "RecalcStyleCount", "value": 1.25 },
+      { "name": "LayoutDuration", "value": 0.00141016 },
+      { "name": "RecalcStyleDuration", "value": 0.0005117044753086419 },
+      { "name": "ScriptDuration", "value": 0.005803520199916702 },
+      { "name": "TaskDuration", "value": 0.040543518066406256 },
+      { "name": "TaskOtherDuration", "value": 0.0014660586800792565 },
+      { "name": "ThreadTime", "value": 0.040404272600000006 },
+      { "name": "JSHeapUsedSize", "value": 3376599.9882521685 },
+      { "name": "JSHeapTotalSize", "value": 7118848 }
+    ]
+  },
+  {
+    "numCreated": 900,
+    "raw": [
+      {
+        "scriptTime": 6055,
+        "totalTime": 8629,
+        "gc": 0,
+        "(idle)": 2265,
+        "(program)": 309,
+        "totalTimeOld": 39209
+      },
+      {
+        "scriptTime": 6087,
+        "totalTime": 10765,
+        "gc": 0,
+        "(idle)": 2251,
+        "querySelector": 304,
+        "(program)": 2123,
+        "totalTimeOld": 41507
+      },
+      {
+        "scriptTime": 6099,
+        "totalTime": 9562,
+        "gc": 0,
+        "(idle)": 2859,
+        "(program)": 604,
+        "totalTimeOld": 40067
+      },
+      {
+        "scriptTime": 6089,
+        "totalTime": 10835,
+        "gc": 0,
+        "(idle)": 2611,
+        "(program)": 2135,
+        "totalTimeOld": 42128
+      },
+      {
+        "scriptTime": 6090,
+        "totalTime": 9851,
+        "gc": 0,
+        "(idle)": 1633,
+        "(program)": 2128,
+        "totalTimeOld": 40951
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 6084,
+    "totalTime": 9928,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 2848 },
+      { "name": "LayoutCount", "value": 0.654320987654321 },
+      { "name": "RecalcStyleCount", "value": 0.54296875 },
+      { "name": "LayoutDuration", "value": 0.00024828160000000003 },
+      { "name": "RecalcStyleDuration", "value": 0.00005980555555555556 },
+      { "name": "ScriptDuration", "value": 0.006096391087047064 },
+      { "name": "TaskDuration", "value": 0.03810500952148437 },
+      { "name": "TaskOtherDuration", "value": 0.00046817619265355885 },
+      { "name": "ThreadTime", "value": 0.0380546929 },
+      { "name": "JSHeapUsedSize", "value": 3433429.8157229694 },
+      { "name": "JSHeapTotalSize", "value": 7102021.530864198 }
+    ]
+  },
+  {
+    "numCreated": 1000,
+    "raw": [
+      {
+        "scriptTime": 7011,
+        "totalTime": 10485,
+        "gc": 0,
+        "(idle)": 2872,
+        "(program)": 602,
+        "totalTimeOld": 40833
+      },
+      {
+        "scriptTime": 12120,
+        "totalTime": 14462,
+        "gc": 0,
+        "(idle)": 1735,
+        "(program)": 607,
+        "totalTimeOld": 45174
+      },
+      {
+        "scriptTime": 6692,
+        "totalTime": 11108,
+        "gc": 0,
+        "(idle)": 1368,
+        "(program)": 3048,
+        "totalTimeOld": 42052
+      },
+      {
+        "scriptTime": 6376,
+        "totalTime": 11656,
+        "gc": 0,
+        "(idle)": 2546,
+        "": 304,
+        "(program)": 2430,
+        "totalTimeOld": 43769
+      },
+      {
+        "scriptTime": 6386,
+        "totalTime": 11061,
+        "gc": 0,
+        "(idle)": 1945,
+        "(program)": 2730,
+        "totalTimeOld": 42057
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 7717,
+    "totalTime": 11754,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 3148 },
+      { "name": "LayoutCount", "value": 0.7037037037037037 },
+      { "name": "RecalcStyleCount", "value": 0.578125 },
+      { "name": "LayoutDuration", "value": 0.00028290399999999995 },
+      { "name": "RecalcStyleDuration", "value": 0.00006377777777777778 },
+      { "name": "ScriptDuration", "value": 0.007403951270304039 },
+      { "name": "TaskDuration", "value": 0.03954679516601563 },
+      { "name": "TaskOtherDuration", "value": 0.0005074787379972564 },
+      { "name": "ThreadTime", "value": 0.03943826400000001 },
+      { "name": "JSHeapUsedSize", "value": 3663866.1930196024 },
+      { "name": "JSHeapTotalSize", "value": 7155699.358024691 }
+    ]
+  },
+  {
+    "numCreated": 2000,
+    "raw": [
+      {
+        "scriptTime": 13089,
+        "totalTime": 19411,
+        "gc": 0,
+        "(idle)": 2968,
+        "(program)": 3354,
+        "totalTimeOld": 50316
+      },
+      {
+        "scriptTime": 12127,
+        "totalTime": 18648,
+        "gc": 0,
+        "(idle)": 2157,
+        "querySelector": 306,
+        "(program)": 4058,
+        "totalTimeOld": 49435
+      },
+      {
+        "scriptTime": 13070,
+        "totalTime": 18981,
+        "gc": 0,
+        "(idle)": 2257,
+        "querySelector": 310,
+        "(program)": 3344,
+        "totalTimeOld": 49975
+      },
+      {
+        "scriptTime": 11548,
+        "totalTime": 17175,
+        "gc": 0,
+        "(idle)": 1968,
+        "(program)": 3659,
+        "totalTimeOld": 48500
+      },
+      {
+        "scriptTime": 17023,
+        "totalTime": 25351,
+        "gc": 0,
+        "(idle)": 1973,
+        "(program)": 6355,
+        "totalTimeOld": 56313
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 13371,
+    "totalTime": 19913,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 6129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0011535471999999998 },
+      { "name": "RecalcStyleDuration", "value": 0.000239283950617284 },
+      { "name": "ScriptDuration", "value": 0.013431309870887129 },
+      { "name": "TaskDuration", "value": 0.048657451416015615 },
+      { "name": "TaskOtherDuration", "value": 0.0023360874866636184 },
+      { "name": "ThreadTime", "value": 0.048542847099999994 },
+      { "name": "JSHeapUsedSize", "value": 4151077.128338228 },
+      { "name": "JSHeapTotalSize", "value": 7380992 }
+    ]
+  },
+  {
+    "numCreated": 3000,
+    "raw": [
+      {
+        "scriptTime": 17646,
+        "totalTime": 26622,
+        "gc": 0,
+        "(program)": 7125,
+        "(idle)": 1536,
+        "click": 315,
+        "totalTimeOld": 56553
+      },
+      {
+        "scriptTime": 17936,
+        "totalTime": 25392,
+        "gc": 0,
+        "(program)": 5898,
+        "(idle)": 1558,
+        "totalTimeOld": 55983
+      },
+      {
+        "scriptTime": 17923,
+        "totalTime": 25684,
+        "gc": 0,
+        "(program)": 6234,
+        "(idle)": 1527,
+        "totalTimeOld": 55812
+      },
+      {
+        "scriptTime": 16427,
+        "totalTime": 23801,
+        "gc": 0,
+        "(program)": 6152,
+        "(idle)": 1222,
+        "totalTimeOld": 54092
+      },
+      {
+        "scriptTime": 16707,
+        "totalTime": 24163,
+        "gc": 0,
+        "(program)": 5900,
+        "(idle)": 1556,
+        "totalTimeOld": 54608
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 17328,
+    "totalTime": 25132,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 9129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.001401464 },
+      { "name": "RecalcStyleDuration", "value": 0.00019105015432098764 },
+      { "name": "ScriptDuration", "value": 0.017551807580174925 },
+      { "name": "TaskDuration", "value": 0.05443696215820313 },
+      { "name": "TaskOtherDuration", "value": 0.004480622466087487 },
+      { "name": "ThreadTime", "value": 0.054484879800000004 },
+      { "name": "JSHeapUsedSize", "value": 4023055.466156683 },
+      { "name": "JSHeapTotalSize", "value": 8306447.802469137 }
+    ]
+  },
+  {
+    "numCreated": 4000,
+    "raw": [
+      {
+        "scriptTime": 23705,
+        "totalTime": 31711,
+        "gc": 0,
+        "(idle)": 1656,
+        "(program)": 6350,
+        "totalTimeOld": 62609
+      },
+      {
+        "scriptTime": 23029,
+        "totalTime": 31334,
+        "gc": 0,
+        "(idle)": 2238,
+        "querySelector": 304,
+        "(program)": 5763,
+        "totalTimeOld": 61906
+      },
+      {
+        "scriptTime": 22216,
+        "totalTime": 30290,
+        "gc": 0,
+        "(program)": 7145,
+        "(idle)": 929,
+        "totalTimeOld": 60941
+      },
+      {
+        "scriptTime": 28547,
+        "totalTime": 37505,
+        "gc": 0,
+        "(idle)": 3182,
+        "(program)": 5776,
+        "totalTimeOld": 68323
+      },
+      {
+        "scriptTime": 22154,
+        "totalTime": 30793,
+        "gc": 0,
+        "(program)": 6784,
+        "(idle)": 1855,
+        "totalTimeOld": 61471
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 23930,
+    "totalTime": 32327,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 12129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0017931104 },
+      { "name": "RecalcStyleDuration", "value": 0.0003004614197530864 },
+      { "name": "ScriptDuration", "value": 0.023795132028321536 },
+      { "name": "TaskDuration", "value": 0.061619552734375 },
+      { "name": "TaskOtherDuration", "value": 0.004208583142813594 },
+      { "name": "ThreadTime", "value": 0.06166309200000002 },
+      { "name": "JSHeapUsedSize", "value": 4441411.465883477 },
+      { "name": "JSHeapTotalSize", "value": 13391947.85185185 }
+    ]
+  },
+  {
+    "numCreated": 5000,
+    "raw": [
+      {
+        "scriptTime": 26754,
+        "totalTime": 39885,
+        "gc": 0,
+        "(garbage collector)": 4978,
+        "(program)": 6980,
+        "(idle)": 1173,
+        "totalTimeOld": 71798
+      },
+      {
+        "scriptTime": 27647,
+        "totalTime": 40245,
+        "gc": 0,
+        "(garbage collector)": 4073,
+        "(program)": 7294,
+        "(idle)": 1231,
+        "totalTimeOld": 72075
+      },
+      {
+        "scriptTime": 28566,
+        "totalTime": 40921,
+        "gc": 0,
+        "(garbage collector)": 3769,
+        "(program)": 7642,
+        "(idle)": 944,
+        "totalTimeOld": 72311
+      },
+      {
+        "scriptTime": 27017,
+        "totalTime": 40200,
+        "gc": 0,
+        "(garbage collector)": 4644,
+        "(program)": 7299,
+        "(idle)": 1240,
+        "totalTimeOld": 72122
+      },
+      {
+        "scriptTime": 27422,
+        "totalTime": 40712,
+        "gc": 0,
+        "(program)": 8022,
+        "(garbage collector)": 3703,
+        "(idle)": 1565,
+        "totalTimeOld": 72230
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 27481,
+    "totalTime": 40393,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 15129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0022430064 },
+      { "name": "RecalcStyleDuration", "value": 0.0003434598765432098 },
+      { "name": "ScriptDuration", "value": 0.02718450562265723 },
+      { "name": "TaskDuration", "value": 0.07236551000976561 },
+      { "name": "TaskOtherDuration", "value": 0.010260640603566532 },
+      { "name": "ThreadTime", "value": 0.07160084220000001 },
+      { "name": "JSHeapUsedSize", "value": 3996445.6061744415 },
+      { "name": "JSHeapTotalSize", "value": 13206856.691358028 }
+    ]
+  },
+  {
+    "numCreated": 6000,
+    "raw": [
+      {
+        "scriptTime": 40374,
+        "totalTime": 50887,
+        "gc": 0,
+        "(idle)": 1991,
+        "(program)": 8522,
+        "totalTimeOld": 75790
+      },
+      {
+        "scriptTime": 32814,
+        "totalTime": 44202,
+        "gc": 0,
+        "(program)": 9539,
+        "click": 311,
+        "(idle)": 1538,
+        "totalTimeOld": 68869
+      },
+      {
+        "scriptTime": 35266,
+        "totalTime": 45723,
+        "gc": 0,
+        "(idle)": 1950,
+        "(program)": 8507,
+        "totalTimeOld": 70684
+      },
+      {
+        "scriptTime": 33372,
+        "totalTime": 44739,
+        "gc": 0,
+        "(idle)": 1622,
+        "(program)": 9745,
+        "totalTimeOld": 69898
+      },
+      {
+        "scriptTime": 35858,
+        "totalTime": 46622,
+        "gc": 0,
+        "(idle)": 2559,
+        "click": 302,
+        "(program)": 7903,
+        "totalTimeOld": 71675
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 35537,
+    "totalTime": 46435,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 18129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0026178751999999996 },
+      { "name": "RecalcStyleDuration", "value": 0.0003246481481481481 },
+      { "name": "ScriptDuration", "value": 0.037952056643065384 },
+      { "name": "TaskDuration", "value": 0.07317248071289063 },
+      { "name": "TaskOtherDuration", "value": 0.006369837677183358 },
+      { "name": "ThreadTime", "value": 0.07340007730000003 },
+      { "name": "JSHeapUsedSize", "value": 5905396.13851513 },
+      { "name": "JSHeapTotalSize", "value": 8915184.197530864 }
+    ]
+  },
+  {
+    "numCreated": 7000,
+    "raw": [
+      {
+        "scriptTime": 45251,
+        "totalTime": 57512,
+        "gc": 0,
+        "(idle)": 2853,
+        "(program)": 9408,
+        "totalTimeOld": 82132
+      },
+      {
+        "scriptTime": 41016,
+        "totalTime": 53869,
+        "gc": 0,
+        "(idle)": 2286,
+        "": 303,
+        "(program)": 10264,
+        "totalTimeOld": 78726
+      },
+      {
+        "scriptTime": 38512,
+        "totalTime": 50789,
+        "gc": 0,
+        "(idle)": 1953,
+        "click": 307,
+        "(program)": 10017,
+        "totalTimeOld": 75976
+      },
+      {
+        "scriptTime": 38273,
+        "totalTime": 50371,
+        "gc": 0,
+        "(idle)": 1650,
+        "": 306,
+        "(program)": 10142,
+        "totalTimeOld": 75410
+      },
+      {
+        "scriptTime": 38202,
+        "totalTime": 50784,
+        "gc": 0,
+        "(idle)": 2556,
+        "(program)": 10026,
+        "totalTimeOld": 75526
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 40251,
+    "totalTime": 52665,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 21129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0030258255999999996 },
+      { "name": "RecalcStyleDuration", "value": 0.0006127746913580246 },
+      { "name": "ScriptDuration", "value": 0.04250531403581841 },
+      { "name": "TaskDuration", "value": 0.07856251416015625 },
+      { "name": "TaskOtherDuration", "value": 0.00666921582075903 },
+      { "name": "ThreadTime", "value": 0.07898990560000001 },
+      { "name": "JSHeapUsedSize", "value": 6287317.653712179 },
+      { "name": "JSHeapTotalSize", "value": 13916235.85185185 }
+    ]
+  },
+  {
+    "numCreated": 8000,
+    "raw": [
+      {
+        "scriptTime": 42833,
+        "totalTime": 55795,
+        "gc": 0,
+        "(idle)": 2002,
+        "(program)": 10960,
+        "totalTimeOld": 80984
+      },
+      {
+        "scriptTime": 45847,
+        "totalTime": 58518,
+        "gc": 0,
+        "(idle)": 1660,
+        "click": 304,
+        "(program)": 10707,
+        "totalTimeOld": 83488
+      },
+      {
+        "scriptTime": 43477,
+        "totalTime": 56700,
+        "gc": 0,
+        "(idle)": 1357,
+        "querySelector": 308,
+        "(program)": 11558,
+        "totalTimeOld": 81760
+      },
+      {
+        "scriptTime": 46230,
+        "totalTime": 59502,
+        "gc": 0,
+        "(idle)": 2274,
+        "click": 303,
+        "(program)": 10695,
+        "totalTimeOld": 84497
+      },
+      {
+        "scriptTime": 43721,
+        "totalTime": 57524,
+        "gc": 0,
+        "(idle)": 2562,
+        "click": 304,
+        "(program)": 10937,
+        "totalTimeOld": 83119
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 44422,
+    "totalTime": 57608,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 24129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0034637728 },
+      { "name": "RecalcStyleDuration", "value": 0.0007250185185185184 },
+      { "name": "ScriptDuration", "value": 0.0438936668054977 },
+      { "name": "TaskDuration", "value": 0.08139061206054687 },
+      { "name": "TaskOtherDuration", "value": 0.007432754458161866 },
+      { "name": "ThreadTime", "value": 0.0812492967 },
+      { "name": "JSHeapUsedSize", "value": 6282843.683628168 },
+      { "name": "JSHeapTotalSize", "value": 15447229.629629627 }
+    ]
+  },
+  {
+    "numCreated": 9000,
+    "raw": [
+      {
+        "scriptTime": 56431,
+        "totalTime": 70960,
+        "gc": 0,
+        "(idle)": 2308,
+        "(program)": 12221,
+        "totalTimeOld": 97579
+      },
+      {
+        "scriptTime": 48911,
+        "totalTime": 63393,
+        "gc": 0,
+        "(program)": 12913,
+        "(idle)": 1569,
+        "totalTimeOld": 90806
+      },
+      {
+        "scriptTime": 48013,
+        "totalTime": 62279,
+        "gc": 0,
+        "(idle)": 2283,
+        "(program)": 11983,
+        "totalTimeOld": 89444
+      },
+      {
+        "scriptTime": 56524,
+        "totalTime": 70987,
+        "gc": 0,
+        "(idle)": 2293,
+        "(program)": 12170,
+        "totalTimeOld": 97947
+      },
+      {
+        "scriptTime": 52275,
+        "totalTime": 66573,
+        "gc": 0,
+        "(idle)": 1983,
+        "querySelector": 307,
+        "(program)": 12008,
+        "totalTimeOld": 93032
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 52431,
+    "totalTime": 66838,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 27129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0038176383999999996 },
+      { "name": "RecalcStyleDuration", "value": 0.0007594405864197531 },
+      { "name": "ScriptDuration", "value": 0.05451320199916701 },
+      { "name": "TaskDuration", "value": 0.09519334887695312 },
+      { "name": "TaskOtherDuration", "value": 0.008432303307422648 },
+      { "name": "ThreadTime", "value": 0.0954336569 },
+      { "name": "JSHeapUsedSize", "value": 7675243.822689706 },
+      { "name": "JSHeapTotalSize", "value": 15037364.14814815 }
+    ]
+  },
+  {
+    "numCreated": 10000,
+    "raw": [
+      {
+        "scriptTime": 58037,
+        "totalTime": 73720,
+        "gc": 0,
+        "(idle)": 2274,
+        "(program)": 13409,
+        "totalTimeOld": 99843
+      },
+      {
+        "scriptTime": 54982,
+        "totalTime": 70582,
+        "gc": 0,
+        "(idle)": 2553,
+        "(program)": 13047,
+        "totalTimeOld": 96556
+      },
+      {
+        "scriptTime": 53483,
+        "totalTime": 69379,
+        "gc": 0,
+        "(idle)": 2248,
+        "click": 304,
+        "(program)": 13344,
+        "totalTimeOld": 95470
+      },
+      {
+        "scriptTime": 57118,
+        "totalTime": 73665,
+        "gc": 0,
+        "(idle)": 2875,
+        "": 307,
+        "(program)": 13365,
+        "totalTimeOld": 99618
+      },
+      {
+        "scriptTime": 52580,
+        "totalTime": 68872,
+        "gc": 0,
+        "(idle)": 2602,
+        "(program)": 13690,
+        "totalTimeOld": 94619
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 55240,
+    "totalTime": 71244,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 30129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0042483616 },
+      { "name": "RecalcStyleDuration", "value": 0.0008884251543209877 },
+      { "name": "ScriptDuration", "value": 0.0566646218242399 },
+      { "name": "TaskDuration", "value": 0.09786166015625 },
+      { "name": "TaskOtherDuration", "value": 0.009119637707666516 },
+      { "name": "ThreadTime", "value": 0.0981434266 },
+      { "name": "JSHeapUsedSize", "value": 8043233.582132368 },
+      { "name": "JSHeapTotalSize", "value": 25594867.358024694 }
+    ]
+  },
+  {
+    "numCreated": 15000,
+    "raw": [
+      {
+        "scriptTime": 84346,
+        "totalTime": 106075,
+        "gc": 0,
+        "(idle)": 1968,
+        "(program)": 19761,
+        "totalTimeOld": 136013
+      },
+      {
+        "scriptTime": 78474,
+        "totalTime": 100742,
+        "gc": 0,
+        "(idle)": 2651,
+        "(program)": 19617,
+        "totalTimeOld": 130366
+      },
+      {
+        "scriptTime": 93567,
+        "totalTime": 116295,
+        "gc": 0,
+        "(idle)": 3000,
+        "(program)": 19728,
+        "totalTimeOld": 146726
+      },
+      {
+        "scriptTime": 79571,
+        "totalTime": 101294,
+        "gc": 0,
+        "(idle)": 1658,
+        "(program)": 20065,
+        "totalTimeOld": 131559
+      },
+      {
+        "scriptTime": 79242,
+        "totalTime": 101861,
+        "gc": 0,
+        "(idle)": 2282,
+        "querySelector": 305,
+        "(program)": 20032,
+        "totalTimeOld": 132187
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 83040,
+    "totalTime": 105253,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 45129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.006295841599999999 },
+      { "name": "RecalcStyleDuration", "value": 0.0012277129629629628 },
+      { "name": "ScriptDuration", "value": 0.08351168179925032 },
+      { "name": "TaskDuration", "value": 0.13565569775390623 },
+      { "name": "TaskOtherDuration", "value": 0.013583755372656606 },
+      { "name": "ThreadTime", "value": 0.1357740299 },
+      { "name": "JSHeapUsedSize", "value": 11378271.435284475 },
+      { "name": "JSHeapTotalSize", "value": 29029072.592592586 }
+    ]
+  },
+  {
+    "numCreated": 20000,
+    "raw": [
+      {
+        "scriptTime": 105700,
+        "totalTime": 135642,
+        "gc": 0,
+        "(idle)": 2598,
+        "(program)": 27344,
+        "totalTimeOld": 170113
+      },
+      {
+        "scriptTime": 103371,
+        "totalTime": 132949,
+        "gc": 0,
+        "(idle)": 2295,
+        "": 311,
+        "(program)": 26972,
+        "totalTimeOld": 167177
+      },
+      {
+        "scriptTime": 104709,
+        "totalTime": 134288,
+        "gc": 0,
+        "(idle)": 2005,
+        "(program)": 27574,
+        "totalTimeOld": 168725
+      },
+      {
+        "scriptTime": 105534,
+        "totalTime": 135139,
+        "gc": 0,
+        "(idle)": 2567,
+        "": 309,
+        "(program)": 26729,
+        "totalTimeOld": 169540
+      },
+      {
+        "scriptTime": 116818,
+        "totalTime": 146712,
+        "gc": 0,
+        "(program)": 27762,
+        "(idle)": 2132,
+        "totalTimeOld": 181756
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 107226,
+    "totalTime": 136946,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 60129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.008628552 },
+      { "name": "RecalcStyleDuration", "value": 0.001663542438271605 },
+      { "name": "ScriptDuration", "value": 0.10693723656809662 },
+      { "name": "TaskDuration", "value": 0.17146139648437503 },
+      { "name": "TaskOtherDuration", "value": 0.01890578981862521 },
+      { "name": "ThreadTime", "value": 0.17123013410000004 },
+      { "name": "JSHeapUsedSize", "value": 15672847.389112765 },
+      { "name": "JSHeapTotalSize", "value": 30544339.753086418 }
+    ]
+  },
+  {
+    "numCreated": 25000,
+    "raw": [
+      {
+        "scriptTime": 129996,
+        "totalTime": 168090,
+        "gc": 0,
+        "(garbage collector)": 1668,
+        "(program)": 36426,
+        "totalTimeOld": 202010
+      },
+      {
+        "scriptTime": 149190,
+        "totalTime": 187258,
+        "gc": 0,
+        "(garbage collector)": 1925,
+        "(program)": 35836,
+        "(idle)": 307,
+        "totalTimeOld": 219751
+      },
+      {
+        "scriptTime": 141215,
+        "totalTime": 186623,
+        "gc": 0,
+        "(garbage collector)": 9862,
+        "(program)": 35546,
+        "totalTimeOld": 218673
+      },
+      {
+        "scriptTime": 144413,
+        "totalTime": 189239,
+        "gc": 0,
+        "(garbage collector)": 9265,
+        "(program)": 35561,
+        "totalTimeOld": 221458
+      },
+      {
+        "scriptTime": 133010,
+        "totalTime": 170567,
+        "gc": 0,
+        "(garbage collector)": 1648,
+        "(program)": 35909,
+        "totalTimeOld": 203428
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 139565,
+    "totalTime": 180355,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 75129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0106949824 },
+      { "name": "RecalcStyleDuration", "value": 0.001885659722222222 },
+      { "name": "ScriptDuration", "value": 0.13507404956268224 },
+      { "name": "TaskDuration", "value": 0.21086869360351565 },
+      { "name": "TaskOtherDuration", "value": 0.029049184727937816 },
+      { "name": "ThreadTime", "value": 0.21045576210000003 },
+      { "name": "JSHeapUsedSize", "value": 14601015.603578992 },
+      { "name": "JSHeapTotalSize", "value": 33158497.97530864 }
+    ]
+  },
+  {
+    "numCreated": 30000,
+    "raw": [
+      {
+        "scriptTime": 155150,
+        "totalTime": 200612,
+        "gc": 0,
+        "(idle)": 2018,
+        "(program)": 43444,
+        "totalTimeOld": 235369
+      },
+      {
+        "scriptTime": 168329,
+        "totalTime": 213413,
+        "gc": 0,
+        "(idle)": 1370,
+        "(program)": 43714,
+        "totalTimeOld": 247847
+      },
+      {
+        "scriptTime": 166092,
+        "totalTime": 212291,
+        "gc": 0,
+        "(idle)": 2267,
+        "(program)": 43932,
+        "totalTimeOld": 247926
+      },
+      {
+        "scriptTime": 155927,
+        "totalTime": 201564,
+        "gc": 0,
+        "(idle)": 1989,
+        "(program)": 43648,
+        "totalTimeOld": 236457
+      },
+      {
+        "scriptTime": 169261,
+        "totalTime": 214570,
+        "gc": 0,
+        "(idle)": 2239,
+        "(program)": 43070,
+        "totalTimeOld": 248724
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 162952,
+    "totalTime": 208490,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 90129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0130919728 },
+      { "name": "RecalcStyleDuration", "value": 0.0024185470679012355 },
+      { "name": "ScriptDuration", "value": 0.15961055810079133 },
+      { "name": "TaskDuration", "value": 0.2412884348144531 },
+      { "name": "TaskOtherDuration", "value": 0.03068519737844841 },
+      { "name": "ThreadTime", "value": 0.24059551120000003 },
+      { "name": "JSHeapUsedSize", "value": 16565531.116453795 },
+      { "name": "JSHeapTotalSize", "value": 35328922.86419753 }
+    ]
+  },
+  {
+    "numCreated": 35000,
+    "raw": [
+      {
+        "scriptTime": 211056,
+        "totalTime": 265879,
+        "gc": 0,
+        "(idle)": 2572,
+        "(program)": 52251,
+        "totalTimeOld": 307811
+      },
+      {
+        "scriptTime": 192313,
+        "totalTime": 246589,
+        "gc": 0,
+        "(idle)": 2291,
+        "click": 306,
+        "(program)": 51679,
+        "totalTimeOld": 288029
+      },
+      {
+        "scriptTime": 181316,
+        "totalTime": 236355,
+        "gc": 0,
+        "(idle)": 2254,
+        "querySelector": 304,
+        "(program)": 52481,
+        "totalTimeOld": 278345
+      },
+      {
+        "scriptTime": 202920,
+        "totalTime": 257099,
+        "gc": 0,
+        "(program)": 52658,
+        "(idle)": 1521,
+        "totalTimeOld": 301016
+      },
+      {
+        "scriptTime": 211199,
+        "totalTime": 265929,
+        "gc": 0,
+        "(idle)": 2560,
+        "": 299,
+        "(program)": 51871,
+        "totalTimeOld": 307761
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 199761,
+    "totalTime": 254370,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 105129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.015646014399999998 },
+      { "name": "RecalcStyleDuration", "value": 0.0028421697530864195 },
+      { "name": "ScriptDuration", "value": 0.205218374427322 },
+      { "name": "TaskDuration", "value": 0.30465802563476563 },
+      { "name": "TaskOtherDuration", "value": 0.037057722450845904 },
+      { "name": "ThreadTime", "value": 0.30542382 },
+      { "name": "JSHeapUsedSize", "value": 23258311.905744143 },
+      { "name": "JSHeapTotalSize", "value": 38929597.629629634 }
+    ]
+  },
+  {
+    "numCreated": 40000,
+    "raw": [
+      {
+        "scriptTime": 211547,
+        "totalTime": 273945,
+        "gc": 0,
+        "(idle)": 2297,
+        "(program)": 60101,
+        "totalTimeOld": 316323
+      },
+      {
+        "scriptTime": 205352,
+        "totalTime": 267090,
+        "gc": 0,
+        "(idle)": 1993,
+        "(program)": 59745,
+        "totalTimeOld": 309194
+      },
+      {
+        "scriptTime": 207414,
+        "totalTime": 269732,
+        "gc": 0,
+        "(idle)": 1934,
+        "": 312,
+        "(program)": 60072,
+        "totalTimeOld": 310503
+      },
+      {
+        "scriptTime": 233745,
+        "totalTime": 295904,
+        "gc": 0,
+        "(program)": 60306,
+        "(idle)": 1853,
+        "totalTimeOld": 336117
+      },
+      {
+        "scriptTime": 221284,
+        "totalTime": 282979,
+        "gc": 0,
+        "(idle)": 1418,
+        "querySelector": 313,
+        "click": 206,
+        "(program)": 59758,
+        "totalTimeOld": 323192
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 215868,
+    "totalTime": 277930,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 120129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.0177757216 },
+      { "name": "RecalcStyleDuration", "value": 0.003237191358024691 },
+      { "name": "ScriptDuration", "value": 0.21461222324031654 },
+      { "name": "TaskDuration", "value": 0.3235525866699219 },
+      { "name": "TaskOtherDuration", "value": 0.0451870579180003 },
+      { "name": "ThreadTime", "value": 0.3233715949 },
+      { "name": "JSHeapUsedSize", "value": 23052930.134280443 },
+      { "name": "JSHeapTotalSize", "value": 41249008.197530866 }
+    ]
+  },
+  {
+    "numCreated": 45000,
+    "raw": [
+      {
+        "scriptTime": 258892,
+        "totalTime": 328156,
+        "gc": 0,
+        "(idle)": 1373,
+        "querySelector": 305,
+        "(program)": 67586,
+        "totalTimeOld": 370195
+      },
+      {
+        "scriptTime": 245297,
+        "totalTime": 316056,
+        "gc": 0,
+        "(program)": 67397,
+        "(idle)": 305,
+        "(garbage collector)": 3057,
+        "totalTimeOld": 359512
+      },
+      {
+        "scriptTime": 258344,
+        "totalTime": 328090,
+        "gc": 0,
+        "(program)": 65740,
+        "(garbage collector)": 4006,
+        "totalTimeOld": 371237
+      },
+      {
+        "scriptTime": 235099,
+        "totalTime": 304939,
+        "gc": 0,
+        "(idle)": 2259,
+        "": 305,
+        "(program)": 67276,
+        "totalTimeOld": 349364
+      },
+      {
+        "scriptTime": 281055,
+        "totalTime": 351212,
+        "gc": 0,
+        "(idle)": 1951,
+        "(program)": 68206,
+        "totalTimeOld": 393793
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 255737,
+    "totalTime": 325691,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 135129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.019876587199999997 },
+      { "name": "RecalcStyleDuration", "value": 0.0036446489197530857 },
+      { "name": "ScriptDuration", "value": 0.2579180708038317 },
+      { "name": "TaskDuration", "value": 0.3752460437011718 },
+      { "name": "TaskOtherDuration", "value": 0.049439133668648064 },
+      { "name": "ThreadTime", "value": 0.3748772242999999 },
+      { "name": "JSHeapUsedSize", "value": 24665323.512055185 },
+      { "name": "JSHeapTotalSize", "value": 43333063.11111111 }
+    ]
+  },
+  {
+    "numCreated": 50000,
+    "raw": [
+      {
+        "scriptTime": 272741,
+        "totalTime": 350765,
+        "gc": 0,
+        "(idle)": 1976,
+        "click": 310,
+        "(program)": 75738,
+        "totalTimeOld": 396477
+      },
+      {
+        "scriptTime": 257390,
+        "totalTime": 335319,
+        "gc": 0,
+        "(idle)": 1990,
+        "(program)": 75939,
+        "totalTimeOld": 382378
+      },
+      {
+        "scriptTime": 258012,
+        "totalTime": 338233,
+        "gc": 0,
+        "(program)": 75938,
+        "(garbage collector)": 3977,
+        "(idle)": 306,
+        "totalTimeOld": 387359
+      },
+      {
+        "scriptTime": 261541,
+        "totalTime": 342722,
+        "gc": 0,
+        "(program)": 77515,
+        "(garbage collector)": 3666,
+        "totalTimeOld": 391469
+      },
+      {
+        "scriptTime": 278463,
+        "totalTime": 356942,
+        "gc": 0,
+        "(idle)": 2269,
+        "(program)": 76210,
+        "totalTimeOld": 408597
+      }
+    ],
+    "gc": 0,
+    "scriptTime": 265629,
+    "totalTime": 344796,
+    "metrics": [
+      { "name": "JSEventListeners", "value": 4 },
+      { "name": "Nodes", "value": 150129 },
+      { "name": "LayoutCount", "value": 1 },
+      { "name": "RecalcStyleCount", "value": 1 },
+      { "name": "LayoutDuration", "value": 0.022373915199999997 },
+      { "name": "RecalcStyleDuration", "value": 0.0039895408950617285 },
+      { "name": "ScriptDuration", "value": 0.2693707913369429 },
+      { "name": "TaskDuration", "value": 0.39994461694335937 },
+      { "name": "TaskOtherDuration", "value": 0.054747521871665907 },
+      { "name": "ThreadTime", "value": 0.3999309348 },
+      { "name": "JSHeapUsedSize", "value": 27861048.233863804 },
+      { "name": "JSHeapTotalSize", "value": 45234540.24691359 }
+    ]
+  }
+]
