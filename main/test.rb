@@ -17,6 +17,6 @@ scenarios = [
 
 frameworks.each do |framework|
 	scenarios.each do |scenario|
-		`yarn run start -f #{framework} -s #{scenario} -r 5`
+		`yarn run start -f #{framework} -s #{scenario} -r 10`
 	end
 end
