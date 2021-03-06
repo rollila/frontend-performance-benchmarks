@@ -38,6 +38,8 @@
         return "In this scenario, the time taken to render N static <div> elements within a single component is measured.";
       case "group1_delete_components":
         return "In this scenario, a single parent contains N child components. The time taken to remove all the children is measured.";
+      case "group1_change_component_type":
+        return "In this scenario, a single parent contains N child components. The time taken to change all the components to a different component is measured.";
       case "group2_update_all":
         return "In this scenario, a parent component contains N child components. Each of the child components accepts a prop which is rendered within a <div> element. The value of the prop is changed and the time taken to update all the children is measured.";
       case "group2_update_child":

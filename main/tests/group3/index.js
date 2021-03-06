@@ -41,6 +41,9 @@ export default async (testScenario, pageUrl, repetitions) => {
   url = pageUrl;
 
   switch (testScenario) {
+    case TEST_SCENARIOS.GROUP3_CREATE_TREE:
+      handler = handlers.createTree;
+      return runTestSet(2);
     case TEST_SCENARIOS.GROUP3_UPDATE_LEAF:
       handler = handlers.updateLeaf;
       return runTestSet(2);

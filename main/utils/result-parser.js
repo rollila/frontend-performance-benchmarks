@@ -28,7 +28,7 @@ export const parseProfile = (profile) => {
       return;
     }
 
-    if (node.callFrame.functionName === "(garbage collector") {
+    if (node.callFrame.functionName === "(garbage collector)") {
       times.gc += timeDeltas[i];
       times.scriptTime += timeDeltas[i];
       return;

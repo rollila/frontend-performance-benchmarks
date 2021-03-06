@@ -8,6 +8,7 @@ scenarios = [
   'group2_update_parent',
   'group2_update_child',
   'group2_update_all',
+  'group3_create_tree',
   'group3_update_leaf',
   'group3_update_root',
   'group4_update_single',

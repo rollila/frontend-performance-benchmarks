@@ -5,12 +5,12 @@
   import Group1CreateComponents from "../../assets/group1_create_components.csv";
   import Group1CreateElements from "../../assets/group1_create_elements.csv";
   import Group1DeleteComponents from "../../assets/group1_delete_components.csv";
+  import Group1ChangeComponentType from '../../assets/group1_change_component_type.csv';
   import Group2UpdateAll from "../../assets/group2_update_all.csv";
-  import Group2UpdateChildRows from "../../assets/group2_update_child_rows.csv";
   import Group2UpdateChild from "../../assets/group2_update_child.csv";
   import Group2UpdateParent from "../../assets/group2_update_parent.csv";
   import Group3UpdateRoot from "../../assets/group3_update_root.csv";
-  import Group3UpdateChild from "../../assets/group3_update_child.csv";
+  import Group3UpdateLeaf from "../../assets/group3_update_leaf.csv";
   import Group4UpdateAll from "../../assets/group4_update_all.csv";
   import Group4UpdateSingle from "../../assets/group4_update_single.csv";
 
@@ -42,6 +42,11 @@
           data: Group1AddOne,
         });
         return;
+      case "group1_change_component_type": 
+        dispatch("change", {
+          scenario: event.target.value,
+          data: Group1ChangeComponentType
+        });
       case "group2_update_parent":
         dispatch("change", {
           scenario: event.target.value,
@@ -69,7 +74,7 @@
       case "group3_update_child":
         dispatch("change", {
           scenario: event.target.value,
-          data: Group3UpdateChild,
+          data: Group3UpdateLeaf,
         });
         return;
       case "group3_update_root":
@@ -101,6 +106,7 @@
     <option value="group1_create_components">group1_create_components</option>
     <option value="group1_create_elements">group1_create_elements</option>
     <option value="group1_delete_components">group1_delete_components</option>
+    <option value="group1_change_component_type">group1_change_component_type</option>
     <option value="group1_add_one">group1_add_one</option>
     <option value="group2_update_parent">group2_update_parent</option>
     <option value="group2_update_child">group2_update_child</option>

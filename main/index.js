@@ -33,6 +33,7 @@ export const TEST_SCENARIOS = {
   GROUP1_CHANGE_COMPONENT_TYPE: "group1_change_component_type",
   GROUP2_UPDATE_PARENT: "group2_update_parent",
   GROUP2_UPDATE_CHILD: "group2_update_child",
+  GROUP3_CREATE_TREE: "group3_create_tree",
   GROUP2_UPDATE_ALL: "group2_update_all",
   GROUP3_UPDATE_LEAF: "group3_update_leaf",
   GROUP3_UPDATE_ROOT: "group3_update_root",

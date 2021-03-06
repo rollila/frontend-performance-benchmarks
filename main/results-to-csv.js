@@ -1,5 +1,4 @@
 import fs from "fs";
-import numeral from "numeral";
 
 const frameworks = fs.readdirSync("./results");
 const scenarios = fs.readdirSync(`./results/${frameworks[0]}`);
