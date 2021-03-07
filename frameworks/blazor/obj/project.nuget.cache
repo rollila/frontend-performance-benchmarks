@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vC9k7xBrrGky+3zS3GwP+ga4rRoJ3AhaZLB2aiHzIQepBJawxz+GRT0VSXgmYtEOtkVSYjYe1LMPYFot2mNSgQ==",
+  "dgSpecHash": "pO+KE/KnLu7Y+z5iy3dPfrmUYgphDDLOkDb4paBCxmMGvbnB3yhZairynFgMnlOuH+iDniKF0WV0XsyO3c2K2Q==",
   "success": true,
-  "projectFilePath": "/home/risto/thesis/blazor2/blazor2.csproj",
+  "projectFilePath": "/home/risto/thesis2/frameworks/blazor/blazor2.csproj",
   "expectedPackageFiles": [
     "/home/risto/.nuget/packages/microsoft.aspnetcore.authorization/5.0.3/microsoft.aspnetcore.authorization.5.0.3.nupkg.sha512",
     "/home/risto/.nuget/packages/microsoft.aspnetcore.components/5.0.3/microsoft.aspnetcore.components.5.0.3.nupkg.sha512",

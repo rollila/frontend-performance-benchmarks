@@ -16,6 +16,7 @@ export class Scenario3 {
     this.branches = Array(this.branchingFactor)
       .fill(null)
       .map((_, i) => i);
+    console.log(this.branches);
   }
   onUpdateTreeDepth(event) {
     this.treeDepth = parseInt(event.target.value, 10);

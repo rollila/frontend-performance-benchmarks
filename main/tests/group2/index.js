@@ -1,30 +1,22 @@
 import * as browser from "../../utils/browser.js";
 import { runTest } from "../../utils/tests.js";
-import { TEST_SCENARIOS } from "../../index.js";
+import testScenarios from "../../test-scenarios.js";
 
 import * as handlers from "./handlers.js";
 
-let NUM_REPETITIONS;
-let handler;
-let url;
-
-const runOne = async (numRows, numCols) => {
-  const result = await runTest({
-    url,
-    numRepetitions: NUM_REPETITIONS,
-    handler: handler(numRows, numCols),
-    testGroupNr: 2,
-  });
-
-  return {
-    rows: Math.max(numRows, 1),
-    cols: Math.max(numCols, 1),
-    ...result,
-  };
-};
-
-const runTestSet = async () => {
+const runTestSet = async (handler, config) => {
   const results = [];
+
+  const runOne = async (numRows, numCols) => {
+    const result = await runTest(handler(numRows, numCols), config);
+
+    return {
+      rows: Math.max(numRows, 1),
+      cols: Math.max(numCols, 1),
+      ...result,
+    };
+  };
+
   for (let i = 0; i <= 900; i += 100) {
     const process = await browser.spawn();
     results.push(await runOne(1, i));
@@ -44,22 +36,15 @@ const runTestSet = async () => {
   return results;
 };
 
-export default async (testScenario, pageUrl, repetitions) => {
-  NUM_REPETITIONS = repetitions;
-  url = pageUrl;
-
-  switch (testScenario) {
-    case TEST_SCENARIOS.GROUP2_UPDATE_PARENT:
-      handler = handlers.updateParent;
-      return runTestSet();
-    case TEST_SCENARIOS.GROUP2_UPDATE_CHILD:
-      handler = handlers.updateChild;
-      return runTestSet();
-    case TEST_SCENARIOS.GROUP2_UPDATE_ALL:
-      handler = handlers.updateAllChildren;
-      return runTestSet();
+export default async (config) => {
+  switch (config.scenario) {
+    case testScenarios.GROUP2_UPDATE_PARENT:
+      return runTestSet(handlers.updateParent, config);
+    case testScenarios.GROUP2_UPDATE_CHILD:
+      return runTestSet(handlers.updateChild, config);
+    case testScenarios.GROUP2_UPDATE_ALL:
+      return runTestSet(handlers.updateAllChildren, config);
     default:
-      console.error(`Invalid handler for scenario ${testScenario}`);
-      return null;
+      throw new Error(`Invalid handler for scenario ${config.scenario}`);
   }
 };

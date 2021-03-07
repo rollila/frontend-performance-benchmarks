@@ -1,4 +1,5 @@
 import CDP from "chrome-remote-interface";
+import fs from "fs";
 
 import * as parser from "./result-parser.js";
 import * as page from "./page.js";
@@ -40,33 +41,37 @@ const runHandler = async (url, testGroupNr, handler) => {
   return results;
 };
 
-export const runTest = async ({
-  url,
-  numRepetitions,
+export const runTest = async (
   handler,
-  testGroupNr,
-}) => {
+  { scenario, repetitions, url, framework }
+) => {
+  const group = scenario.split("_")[0][5];
   let scriptTime = 0;
   let totalTime = 0;
   let gc = 0;
   let metrics = [];
   let raw = [];
 
-  for (let i = 0; i < numRepetitions; i += 1) {
-    const result = await runHandler(url, testGroupNr, handler);
+  for (let i = 0; i < repetitions; i += 1) {
+    const result = await runHandler(url, group, handler);
     const parse = parser.parseProfile(result.trace.profile);
     raw.push(parse);
     scriptTime += parse.scriptTime;
     totalTime += parse.totalTime;
     gc += parse.gc;
     metrics.push(result.metrics);
+
+    fs.writeFileSync(
+      `./traces/${scenario}_${framework}.json`,
+      JSON.stringify(result.trace.profile)
+    );
   }
 
   return {
     raw,
-    gc: Math.round(gc / numRepetitions),
-    scriptTime: Math.round(scriptTime / numRepetitions),
-    totalTime: Math.round(totalTime / numRepetitions),
+    gc: Math.round(gc / repetitions),
+    scriptTime: Math.round(scriptTime / repetitions),
+    totalTime: Math.round(totalTime / repetitions),
     metrics: parser.parseMetrics(metrics),
   };
 };

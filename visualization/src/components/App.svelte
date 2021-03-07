@@ -46,6 +46,8 @@
         return "In this scenario, a parent component contains N child components. Each of the child components contains a button which can be used to increment a displayed value bound to the child. The time taken to update a single child is measured.";
       case "group2_update_parent":
         return "In this scenario, a parent component contains N child components. The parent component contains a button which can be used to increment a displayed value bound to the parent. The button is pressed and the time taken to update the parent is measured. No child components are changed.";
+      case "group3_create_tree":
+        return "In this scenario, we measure the time taken to create a component tree with a branching factor of 2.";
       case "group3_update_child":
         return "In this scenario, there is a component tree with a branching factor of 2. Each leaf of the tree contains a button that can be pressed to increment a value bound to the leaf node. The button of one leaf is pressed and the time taken to update the leaf is measured.";
       case "group3_update_root":

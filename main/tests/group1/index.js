@@ -1,21 +1,14 @@
 import * as browser from "../../utils/browser.js";
 import { runTest } from "../../utils/tests.js";
-import { TEST_SCENARIOS } from "../../index.js";
+import testScenarios from "../../test-scenarios.js";
 
 import * as handlers from "./handlers.js";
 
-let NUM_REPETITIONS;
-
-const runTestSet = async (url, handler) => {
+const runTestSet = async (handler, config) => {
   const results = [];
 
   const runOne = async (numComponents) => {
-    const result = await runTest({
-      url,
-      numRepetitions: NUM_REPETITIONS,
-      handler: handler(numComponents),
-      testGroupNr: 1,
-    });
+    const result = await runTest(handler(numComponents), config);
 
     results.push({
       numCreated: Math.max(numComponents, 1),
@@ -38,21 +31,19 @@ const runTestSet = async (url, handler) => {
   return results;
 };
 
-export default async (testScenario, url, repetitions) => {
-  NUM_REPETITIONS = repetitions;
-  switch (testScenario) {
-    case TEST_SCENARIOS.GROUP1_CREATE_COMPONENTS:
-      return runTestSet(url, handlers.createComponents);
-    case TEST_SCENARIOS.GROUP1_DELETE_COMPONENTS:
-      return runTestSet(url, handlers.deleteComponents);
-    case TEST_SCENARIOS.GROUP1_ADD_ONE_COMPONENT:
-      return runTestSet(url, handlers.addOneComponent);
-    case TEST_SCENARIOS.GROUP1_CREATE_ELEMENTS:
-      return runTestSet(url, handlers.createElements);
-    case TEST_SCENARIOS.GROUP1_CHANGE_COMPONENT_TYPE:
-      return runTestSet(url, handlers.changeComponentType);
+export default async (config) => {
+  switch (config.scenario) {
+    case testScenarios.GROUP1_CREATE_COMPONENTS:
+      return runTestSet(handlers.createComponents, config);
+    case testScenarios.GROUP1_DELETE_COMPONENTS:
+      return runTestSet(handlers.deleteComponents, config);
+    case testScenarios.GROUP1_ADD_ONE_COMPONENT:
+      return runTestSet(handlers.addOneComponent, config);
+    case testScenarios.GROUP1_CREATE_ELEMENTS:
+      return runTestSet(handlers.createElements, config);
+    case testScenarios.GROUP1_CHANGE_COMPONENT_TYPE:
+      return runTestSet(handlers.changeComponentType, config);
     default:
-      console.error(`Invalid handler for scenario ${testScenario}`);
-      return null;
+      throw new Error(`Invalid handler for scenario ${config.scenario}`);
   }
 };

@@ -40,8 +40,13 @@
           rangeEnd: labels.findIndex((label) => label === "1024"),
         },
         {
-          title: "1024-65536",
+          title: "1024-8192",
           rangeStart: labels.findIndex((label) => label === "1024"),
+          rangeEnd: labels.findIndex((label) => label === "8192"),
+        },
+        {
+          title: "1024-65536",
+          rangeStart: labels.findIndex((label) => label === "8192"),
           rangeEnd: labels.length - 1,
         },
         {
@@ -76,7 +81,7 @@
 </script>
 
 <div>
-  <label>Select range of values</label>
+  <label>Select range of N</label>
   {#each options() as option}
     <button
       on:click={() =>

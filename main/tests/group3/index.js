@@ -1,57 +1,44 @@
 import * as browser from "../../utils/browser.js";
 import { runTest } from "../../utils/tests.js";
-import { TEST_SCENARIOS } from "../../index.js";
+import testScenarios from "../../test-scenarios.js";
 
 import * as handlers from "./handlers.js";
 
-let NUM_REPETITIONS;
-let handler;
-let url;
+const BRANCHING_FACTOR = 2;
 
-const runOne = async (branchingFactor, treeDepth) => {
-  const result = await runTest({
-    url,
-    numRepetitions: NUM_REPETITIONS,
-    handler: handler(branchingFactor, treeDepth),
-    testGroupNr: 3,
-  });
-
-  return {
-    branchingFactor,
-    treeDepth,
-    numComponents: Math.pow(branchingFactor, treeDepth),
-    ...result,
-  };
-};
-
-const runTestSet = async (branchingFactor) => {
+const runTestSet = async (handler, config) => {
   const results = [];
+
+  const runOne = async (treeDepth) => {
+    const result = await runTest(handler(BRANCHING_FACTOR, treeDepth), config);
+
+    return {
+      BRANCHING_FACTOR,
+      treeDepth,
+      numComponents: Math.pow(BRANCHING_FACTOR, treeDepth),
+      ...result,
+    };
+  };
+
   const process = await browser.spawn();
 
-  for (let i = 1; Math.pow(branchingFactor, i) <= 66000; i += 1) {
-    results.push(await runOne(branchingFactor, i));
+  for (let i = 1; Math.pow(BRANCHING_FACTOR, i) <= 66000; i += 1) {
+    results.push(await runOne(i));
   }
 
   await browser.close(process);
   return results;
 };
 
-export default async (testScenario, pageUrl, repetitions) => {
-  NUM_REPETITIONS = repetitions;
-  url = pageUrl;
-
-  switch (testScenario) {
-    case TEST_SCENARIOS.GROUP3_CREATE_TREE:
-      handler = handlers.createTree;
-      return runTestSet(2);
-    case TEST_SCENARIOS.GROUP3_UPDATE_LEAF:
-      handler = handlers.updateLeaf;
-      return runTestSet(2);
-    case TEST_SCENARIOS.GROUP3_UPDATE_ROOT:
-      handler = handlers.updateRoot;
-      return runTestSet(2);
+export default async (config) => {
+  switch (config.scenario) {
+    case testScenarios.GROUP3_CREATE_TREE:
+      return runTestSet(handlers.createTree, config);
+    case testScenarios.GROUP3_UPDATE_LEAF:
+      return runTestSet(handlers.updateLeaf, config);
+    case testScenarios.GROUP3_UPDATE_ROOT:
+      return runTestSet(handlers.updateRoot, config);
     default:
-      console.error(`Invalid handler for scenario ${testScenario}`);
-      return null;
+      throw new Error(`Invalid handler for scenario ${config.scenario}`);
   }
 };

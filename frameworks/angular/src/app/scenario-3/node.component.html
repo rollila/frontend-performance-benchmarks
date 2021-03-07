@@ -1,10 +1,12 @@
 <div>
   <ng-template [ngIf]="subtreeDepth > 0">
-    <node
-      ngFor="let branch of branches"
-      [branches]="branches"
-      [subtreeDepth]="subtreeDepth - 1"
-    ></node>
+    <div>
+      <node
+        *ngFor="let branch of branches"
+        [branches]="branches"
+        [subtreeDepth]="subtreeDepth - 1"
+      ></node>
+    </div>
   </ng-template>
   <div #elseBlock>
     {{ count }}

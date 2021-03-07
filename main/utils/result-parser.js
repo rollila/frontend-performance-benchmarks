@@ -1,5 +1,3 @@
-import fs from "fs";
-
 export const parseProfile = (profile) => {
   const { nodes, samples, timeDeltas } = profile;
   let times = {
@@ -39,8 +37,6 @@ export const parseProfile = (profile) => {
         ? timeDeltas[i]
         : times[node.callFrame.functionName] + timeDeltas[i];
   });
-
-  fs.writeFileSync(`debug.json`, JSON.stringify(profile));
 
   return {
     ...times,

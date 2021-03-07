@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/risto/thesis/blazor2/blazor2.csproj": {}
+    "/home/risto/thesis2/frameworks/blazor/blazor2.csproj": {}
   },
   "projects": {
-    "/home/risto/thesis/blazor2/blazor2.csproj": {
+    "/home/risto/thesis2/frameworks/blazor/blazor2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/risto/thesis/blazor2/blazor2.csproj",
+        "projectUniqueName": "/home/risto/thesis2/frameworks/blazor/blazor2.csproj",
         "projectName": "blazor2",
-        "projectPath": "/home/risto/thesis/blazor2/blazor2.csproj",
+        "projectPath": "/home/risto/thesis2/frameworks/blazor/blazor2.csproj",
         "packagesPath": "/home/risto/.nuget/packages/",
-        "outputPath": "/home/risto/thesis/blazor2/obj/",
+        "outputPath": "/home/risto/thesis2/frameworks/blazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/risto/.nuget/NuGet/NuGet.Config"

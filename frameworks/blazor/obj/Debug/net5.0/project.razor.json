@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/risto/thesis/blazor2/blazor2.csproj",
+  "FilePath": "/home/risto/thesis2/frameworks/blazor/blazor2.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -13492,98 +13492,98 @@
   "RootNamespace": "blazor2",
   "Documents": [
     {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario1/Child2.razor",
-      "TargetPath": "Pages\\Scenario1\\Child2.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario4/Scen4.razor",
-      "TargetPath": "Pages\\Scenario4\\Scen4.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario4/Scen4Child.razor",
-      "TargetPath": "Pages\\Scenario4\\Scen4Child.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario3/Node.razor",
-      "TargetPath": "Pages\\Scenario3\\Node.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/_Imports.razor",
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario3/Scen3.razor",
-      "TargetPath": "Pages\\Scenario3\\Scen3.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario2/Scen2.razor",
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario2/Scen2.razor",
       "TargetPath": "Pages\\Scenario2\\Scen2.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario1/Child.razor",
-      "TargetPath": "Pages\\Scenario1\\Child.razor",
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario1/Scen1.razor",
-      "TargetPath": "Pages\\Scenario1\\Scen1.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Main.razor",
-      "TargetPath": "Pages\\Main.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario2/Cell.razor",
-      "TargetPath": "Pages\\Scenario2\\Cell.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Index.razor",
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/risto/thesis/blazor2/Pages/Scenario2/Row.razor",
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario2/Cell.razor",
+      "TargetPath": "Pages\\Scenario2\\Cell.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario3/Scen3.razor",
+      "TargetPath": "Pages\\Scenario3\\Scen3.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario1/Child.razor",
+      "TargetPath": "Pages\\Scenario1\\Child.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario2/Row.razor",
       "TargetPath": "Pages\\Scenario2\\Row.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario1/Scen1.razor",
+      "TargetPath": "Pages\\Scenario1\\Scen1.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Main.razor",
+      "TargetPath": "Pages\\Main.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario4/Scen4Child.razor",
+      "TargetPath": "Pages\\Scenario4\\Scen4Child.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario3/Node.razor",
+      "TargetPath": "Pages\\Scenario3\\Node.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario4/Scen4.razor",
+      "TargetPath": "Pages\\Scenario4\\Scen4.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario1/Child2.razor",
+      "TargetPath": "Pages\\Scenario1\\Child2.razor",
       "FileKind": "component"
     }
   ],

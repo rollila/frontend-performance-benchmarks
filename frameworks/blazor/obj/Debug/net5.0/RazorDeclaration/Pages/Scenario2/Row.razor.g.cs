@@ -13,77 +13,77 @@ namespace blazor2.Pages.Scenario2
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 1 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 2 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 3 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 4 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 5 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 6 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 7 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 8 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 9 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using blazor2;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/home/risto/thesis/blazor2/_Imports.razor"
+#line 10 "/home/risto/thesis2/frameworks/blazor/_Imports.razor"
 using blazor2.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "/home/risto/thesis/blazor2/Pages/Scenario2/Row.razor"
+#line 1 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario2/Row.razor"
 using System.Collections;
 
 #line default
@@ -97,7 +97,7 @@ using System.Collections;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "/home/risto/thesis/blazor2/Pages/Scenario2/Row.razor"
+#line 18 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario2/Row.razor"
        
     [Parameter] 
     public List<Column> columns { get; set; }

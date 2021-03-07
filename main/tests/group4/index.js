@@ -1,21 +1,14 @@
 import * as browser from "../../utils/browser.js";
 import { runTest } from "../../utils/tests.js";
-import { TEST_SCENARIOS } from "../../index.js";
+import testScenarios from "../../test-scenarios.js";
 
 import * as handlers from "./handlers.js";
 
-let NUM_REPETITIONS;
-
-const runTestSet = async (url, handler) => {
+const runTestSet = async (handler, config) => {
   const results = [];
 
   const runOne = async (numComponents) => {
-    const result = await runTest({
-      url,
-      numRepetitions: NUM_REPETITIONS,
-      handler: handler(numComponents),
-      testGroupNr: 4,
-    });
+    const result = await runTest(handler(numComponents), config);
 
     results.push({
       numCreated: Math.max(numComponents, 1),
@@ -37,16 +30,13 @@ const runTestSet = async (url, handler) => {
   return results;
 };
 
-export default async (testScenario, url, repetitions) => {
-  NUM_REPETITIONS = repetitions;
-
-  switch (testScenario) {
-    case TEST_SCENARIOS.GROUP4_UPDATE_ALL:
-      return runTestSet(url, handlers.updateAll);
-    case TEST_SCENARIOS.GROUP4_UPDATE_SINGLE:
-      return runTestSet(url, handlers.updateOne);
+export default async (config) => {
+  switch (config.scenario) {
+    case testScenarios.GROUP4_UPDATE_ALL:
+      return runTestSet(handlers.updateAll, config);
+    case testScenarios.GROUP4_UPDATE_SINGLE:
+      return runTestSet(handlers.updateOne, config);
     default:
-      console.error(`Invalid handler for scenario ${testScenario}`);
-      return null;
+      throw new Error(`Invalid handler for scenario ${config.scenario}`);
   }
 };
