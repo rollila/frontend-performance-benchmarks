@@ -120,7 +120,6 @@
     <option value="group2_update_parent">group2_update_parent</option>
     <option value="group2_update_child">group2_update_child</option>
     <option value="group2_update_all">group2_update_all</option>
-    <option value="group2_update_child_rows">group2_update_child_rows</option>
     <option value="group3_create_tree">group3_create_tree</option>
     <option value="group3_update_leaf">group3_update_leaf</option>
     <option value="group3_update_root">group3_update_root</option>

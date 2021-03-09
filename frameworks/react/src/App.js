@@ -5,8 +5,6 @@ import Scenario2 from "./scenario-2/Scenario2.js";
 import Scenario3 from "./scenario-3/Scenario3.js";
 import Scenario4 from "./scenario-4/Scenario4.js";
 
-import Test from "./test/Parent.js";
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -36,7 +34,6 @@ class App extends React.Component {
       <div>
         {this.state.scenarioComponent == null ? (
           <div>
-            <Test />
             <h4>Select scenario</h4>
             <div>
               <div>

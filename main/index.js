@@ -10,7 +10,7 @@ const main = async () => {
   const group = config.scenario.split("_")[0];
   const resultsPath = `./results/${config.framework}`;
 
-  const results = (async () => {
+  const results = await (async () => {
     switch (group) {
       case "group1":
         return await group1(config);
