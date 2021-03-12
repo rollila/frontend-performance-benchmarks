@@ -24,10 +24,17 @@
           <button id="btn-scen-4" (click)="selectScenario(4)">Select</button>
         </label>
       </div>
+      <div>
+        <label>
+          Scenario 6: Update components containing mostly static content
+          <button id="btn-scen-6" (click)="selectScenario(6)">Select</button>
+        </label>
+      </div>
     </div>
   </div>
   <scenario1 *ngIf="selectedScenario === 1"></scenario1>
   <scenario2 *ngIf="selectedScenario === 2"></scenario2>
   <scenario3 *ngIf="selectedScenario === 3"></scenario3>
   <scenario4 *ngIf="selectedScenario === 4"></scenario4>
+  <scenario6 *ngIf="selectedScenario === 6"></scenario6>
 </div>

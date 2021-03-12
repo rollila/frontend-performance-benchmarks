@@ -2,7 +2,9 @@
   import Scenario1 from "./scenario-1/Scenario1.svelte";
   import Scenario2 from "./scenario-2/Scenario2.svelte";
   import Scenario3 from "./scenario-3/Scenario3.svelte";
-  import Scenario4 from './scenario-4/Scenario4.svelte';
+  import Scenario4 from "./scenario-4/Scenario4.svelte";
+  import Scenario5 from "./scenario-5/Scenario5.svelte";
+  import Scenario6 from "./scenario-6/Scenario6.svelte";
 
   function selectScenario(value) {
     selectedScenario = value;
@@ -17,6 +19,10 @@
       ? Scenario3
       : selectedScenario === 4
       ? Scenario4
+      : selectedScenario === 5
+      ? Scenario5
+      : selectedScenario === 6
+      ? Scenario6
       : null;
 </script>
 
@@ -27,9 +33,7 @@
         <h4>Select scenario</h4>
         <div>
           <div>
-            <label>
-              Scenario 1: Generate and delete components
-            </label>
+            <label> Scenario 1: Generate and delete components </label>
             <button id="btn-scen-1" on:click={() => selectScenario(1)}>
               Select
             </button>
@@ -51,11 +55,29 @@
             </label>
           </div>
           <div>
-          <label>
-            Scenario 4: Update components containing mostly static content
-            <button id="btn-scen-4" on:click="{() => selectScenario(4)}">Select</button>
-          </label>
-        </div>
+            <label>
+              Scenario 4: Update components containing mostly static content
+              <button id="btn-scen-4" on:click={() => selectScenario(4)}
+                >Select</button
+              >
+            </label>
+          </div>
+          <div>
+            <label>
+              Scenario 5
+              <button id="btn-scen-5" on:click={() => selectScenario(5)}
+                >Select</button
+              >
+            </label>
+          </div>
+          <div>
+            <label>
+              Scenario 6
+              <button id="btn-scen-6" on:click={() => selectScenario(6)}
+                >Select</button
+              >
+            </label>
+          </div>
         </div>
       </div>
     {:else}

@@ -12,6 +12,8 @@ import { Scenario3 } from './scenario-3/scenario3.component';
 import { Node } from './scenario-3/node.component';
 import { Scenario4 } from './scenario-4/scenario4.component';
 import { Child as Scenario4Child } from './scenario-4/child.component';
+import { Scenario6 } from './scenario-6/scenario6.component';
+import { Scenario6Node } from './scenario-6/node.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { Child as Scenario4Child } from './scenario-4/child.component';
     Node,
     Scenario4,
     Scenario4Child,
+    Scenario6,
+    Scenario6Node,
   ],
   imports: [BrowserModule],
   providers: [],
