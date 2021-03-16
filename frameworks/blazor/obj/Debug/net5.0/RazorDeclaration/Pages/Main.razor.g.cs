@@ -110,6 +110,13 @@ using blazor2.Pages.Scenario4;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "/home/risto/thesis2/frameworks/blazor/Pages/Main.razor"
+using blazor2.Pages.Scenario5;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Main : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -119,7 +126,7 @@ using blazor2.Pages.Scenario4;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "/home/risto/thesis2/frameworks/blazor/Pages/Main.razor"
+#line 59 "/home/risto/thesis2/frameworks/blazor/Pages/Main.razor"
        
   Nullable<int> selectedScenario = null;
       public void selectScenario(int value)

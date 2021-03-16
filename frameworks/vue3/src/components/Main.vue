@@ -25,6 +25,12 @@
             <button id="btn-scen-4" @click="selectScenario(4)">Select</button>
           </label>
         </div>
+        <div>
+          <label>
+            Scenario 5
+            <button id="btn-scen-5" @click="selectScenario(5)">Select</button>
+          </label>
+        </div>
       </div>
     </div>
     <component v-if="selectedScenario" :is="scenarioComponent" />
@@ -36,6 +42,7 @@ import Scenario1 from "./scenario-1/Scenario1";
 import Scenario2 from "./scenario-2/Scenario2";
 import Scenario3 from "./scenario-3/Scenario3";
 import Scenario4 from "./scenario-4/Scenario4";
+import Scenario5 from "./scenario-5/Scenario5";
 
 export default {
   components: {
@@ -43,6 +50,7 @@ export default {
     Scenario2,
     Scenario3,
     Scenario4,
+    Scenario5,
   },
   data() {
     return {
@@ -60,6 +68,8 @@ export default {
           return Scenario3;
         case 4:
           return Scenario4;
+        case 5:
+          return Scenario5;
         default:
           return null;
       }

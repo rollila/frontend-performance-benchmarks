@@ -2,6 +2,7 @@
 @using blazor2.Pages.Scenario2;
 @using blazor2.Pages.Scenario3;
 @using blazor2.Pages.Scenario4;
+@using blazor2.Pages.Scenario5;
 @page "/"
 
     <div>
@@ -29,6 +30,12 @@
               <button id="btn-scen-4" @onclick="@(e => selectScenario(4))">Select</button>
             </label>
           </div>
+          <div>
+            <label>
+              Scenario 5
+              <button id="btn-scen-5" @onclick="@(e => selectScenario(5))">Select</button>
+            </label>
+          </div>
         </div>
       </div>
     }
@@ -43,6 +50,9 @@
     }
     @if(selectedScenario == 4) {
         <Scen4 />
+    }
+    @if(selectedScenario == 5) {
+        <Scen5 />
     }
   </div>
 

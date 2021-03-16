@@ -70,7 +70,7 @@ export default class Node extends React.Component {
         <div>
           {this.state.count}
           <button
-            className="btn-increment-leaf"
+            className="btn-increment-node"
             onClick={() => this.increment()}
           >
             Update

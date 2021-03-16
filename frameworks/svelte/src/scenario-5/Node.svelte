@@ -28,7 +28,7 @@
   ><span>-</span><span>-</span><span />
   <div>
     {count}
-    <button class="btn-increment-leaf" on:click={increment}>Update leaf</button>
+    <button class="btn-increment-node" on:click={increment}>Update leaf</button>
   </div>
   <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span
     >-</span

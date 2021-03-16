@@ -1,0 +1,37 @@
+<div>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <div>
+    {{ count }}
+    <button class="btn-increment-node" (click)="increment()">
+      Update leaf
+    </button>
+  </div>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
+  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  <ng-template [ngIf]="subtreeDepth > 0">
+    <div>
+      <sc5-node
+        *ngFor="let branch of branches"
+        [branches]="branches"
+        [subtreeDepth]="subtreeDepth - 1"
+      ></sc5-node>
+    </div>
+  </ng-template>
+</div>

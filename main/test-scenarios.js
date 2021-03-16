@@ -12,4 +12,6 @@ export default {
   GROUP3_UPDATE_ROOT: "group3_update_root",
   GROUP4_UPDATE_SINGLE: "group4_update_single",
   GROUP4_UPDATE_ALL: "group4_update_all",
+  GROUP5_UPDATE_ROOT: "group5_update_root",
+  GROUP5_UPDATE_LEAF: "group5_update_leaf",
 };

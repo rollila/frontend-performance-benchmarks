@@ -4,6 +4,7 @@ import group1 from "./tests/group1/index.js";
 import group2 from "./tests/group2/index.js";
 import group3 from "./tests/group3/index.js";
 import group4 from "./tests/group4/index.js";
+import group5 from "./tests/group5/index.js";
 import config from "./utils/config.js";
 
 const main = async () => {
@@ -20,6 +21,8 @@ const main = async () => {
         return await group3(config);
       case "group4":
         return await group4(config);
+      case "group5":
+        return await group5(config);
     }
   })();
 

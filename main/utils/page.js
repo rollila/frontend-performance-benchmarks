@@ -35,3 +35,9 @@ export const click = (client) => async (selector) => {
     expression: `document.querySelector("${selector}").click();`,
   });
 };
+
+export const clickLast = (client) => async (selector) => {
+  await client.Runtime.evaluate({
+    expression: `let temp = document.querySelectorAll("${selector}"); temp[temp.length - 1].click();`,
+  });
+};

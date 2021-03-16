@@ -1,0 +1,44 @@
+<div>
+    <label>Select branching factor</label>
+    <input
+      id="input-branching-factor"
+      type="number"
+      @bind="branchingFactor"
+    />
+    <label>Select tree depth</label>
+    <input
+      id="input-tree-depth"
+      type="number'"
+      @bind="treeDepth"
+    />
+    <button id="btn-generate" @onclick="generate">Generate tree</button>
+    <div>@count</div>
+    <button id="btn-increment-root" @onclick="increment">Update root</button>
+    @if(initialized) {
+    <div>
+        @for(int i = 0; i < branchingFactor; i += 1) {
+            <Scen5Node @key="@i" BranchingFactor="@branchingFactor" SubtreeDepth="@getSubtreeDepth()" />
+        }
+    </div>
+    }
+</div>
+
+@code {
+    int branchingFactor =  0;
+    int treeDepth =  0;
+    bool initialized = false;
+    int count =  0;
+    
+    public void generate() {
+        initialized = true;
+    }
+
+    public void increment() {
+        count += 1;
+    }
+
+    public int getSubtreeDepth() {
+        return treeDepth - 1;
+    }
+
+}
