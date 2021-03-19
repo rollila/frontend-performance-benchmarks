@@ -73,6 +73,20 @@
         },
       ];
     }
+    if (group === "group5") {
+      return [
+        {
+          title: "1-1024",
+          rangeStart: 0,
+          rangeEnd: labels.findIndex((label) => label === "1024"),
+        },
+        {
+          title: "1024-8192",
+          rangeStart: labels.findIndex((label) => label === "1024"),
+          rangeEnd: labels.findIndex((label) => label === "8192"),
+        },
+      ];
+    }
   };
 
   function selectOption(value) {

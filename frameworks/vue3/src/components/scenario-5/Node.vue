@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{ prop }}
     <div>{{ count }}</div>
     <button @click="increment" class="btn-increment-node">Increment</button>
     <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
@@ -18,6 +19,7 @@
         :key="n"
         :subtree-depth="subtreeDepth - 1"
         :branching-factor="branchingFactor"
+        :prop="prop"
       />
     </template>
   </div>
@@ -32,6 +34,10 @@ export default {
       required: true,
     },
     subtreeDepth: {
+      type: Number,
+      required: true,
+    },
+    prop: {
       type: Number,
       required: true,
     },

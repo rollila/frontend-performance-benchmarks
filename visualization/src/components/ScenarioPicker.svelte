@@ -14,6 +14,9 @@
   import Group3UpdateLeaf from "../../assets/group3_update_leaf.csv";
   import Group4UpdateAll from "../../assets/group4_update_all.csv";
   import Group4UpdateSingle from "../../assets/group4_update_single.csv";
+  import Group5UpdateAll from "../../assets/group5_update_all.csv";
+  import Group5UpdateLeaf from "../../assets/group5_update_leaf.csv";
+  import Group5UpdateRoot from "../../assets/group5_update_root.csv";
 
   const dispatch = createEventDispatcher();
 
@@ -102,6 +105,24 @@
           data: Group4UpdateAll,
         });
         return;
+      case "group5_update_all":
+        dispatch("change", {
+          scenario: event.target.value,
+          data: Group5UpdateAll,
+        });
+        return;
+      case "group5_update_root":
+        dispatch("change", {
+          scenario: event.target.value,
+          data: Group5UpdateRoot,
+        });
+        return;
+      case "group5_update_leaf":
+        dispatch("change", {
+          scenario: event.target.value,
+          data: Group5UpdateLeaf,
+        });
+        return;
     }
   }
 </script>
@@ -125,5 +146,8 @@
     <option value="group3_update_root">group3_update_root</option>
     <option value="group4_update_single">group4_update_single</option>
     <option value="group4_update_all">group4_update_all</option>
+    <option value="group5_update_all">group5_update_all</option>
+    <option value="group5_update_root">group5_update_root</option>
+    <option value="group5_update_leaf">group5_update_leaf</option>
   </select>
 </div>

@@ -39,6 +39,7 @@
       data: react,
       lineTension: 0,
     },
+    /* 
     {
       id: "vue",
       label: "Vue 2",
@@ -46,10 +47,10 @@
       borderColor: "#91B1E0",
       data: vue,
       lineTension: 0,
-    },
+    }, */
     {
       id: "vue3",
-      label: "Vue 3",
+      label: "Vue",
       fill: false,
       borderColor: "#E18DB7",
       data: vue3,
@@ -90,6 +91,40 @@
         title: {
           display: true,
           text: title,
+        },
+        legend: {
+          labels: {
+            fontSize: 16,
+            fontStyle: "bold",
+          },
+        },
+        scales: {
+          yAxes: [
+            {
+              scaleLabel: {
+                display: true,
+                labelString: "Time (ms)",
+                fontSize: 16,
+                fontStyle: "bold",
+              },
+              ticks: {
+                fontSize: 16,
+              },
+            },
+          ],
+          xAxes: [
+            {
+              scaleLabel: {
+                display: true,
+                labelString: "Number of components",
+                fontSize: 16,
+                fontStyle: "bold",
+              },
+              ticks: {
+                fontSize: 16,
+              },
+            },
+          ],
         },
       },
     });
