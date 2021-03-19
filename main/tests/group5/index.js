@@ -42,6 +42,8 @@ export default async (config) => {
       return runTestSet(handlers.updateLeaf, config);
     case testScenarios.GROUP5_UPDATE_ROOT:
       return runTestSet(handlers.updateRoot, config);
+    case testScenarios.GROUP5_UPDATE_ALL:
+      return runTestSet(handlers.updateAll, config);
     default:
       throw new Error(`Invalid handler for scenario ${config.scenario}`);
   }

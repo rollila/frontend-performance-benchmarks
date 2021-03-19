@@ -1,14 +1,12 @@
 <div>
-  <ng-template [ngIf]="subtreeDepth > 0">
-    <div>
-      <node
-        *ngFor="let branch of branches"
-        [branches]="branches"
-        [subtreeDepth]="subtreeDepth - 1"
-      ></node>
-    </div>
-  </ng-template>
-  <div #elseBlock>
+  <div *ngIf="subtreeDepth > 0">
+    <node
+      *ngFor="let branch of branches"
+      [branches]="branches"
+      [subtreeDepth]="subtreeDepth - 1"
+    ></node>
+  </div>
+  <div *ngIf="subtreeDepth === 0">
     {{ count }}
     <button class="btn-increment-leaf" (click)="increment()">
       Update leaf

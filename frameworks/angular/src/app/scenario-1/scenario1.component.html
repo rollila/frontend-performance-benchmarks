@@ -22,13 +22,10 @@
     </button>
   </div>
   <div>
-    <ng-template [ngIf]="childType === 1">
-      <sc1-child
-        *ngFor="let child of children; trackBy: trackBy"
-        [id]="child.id"
-      ></sc1-child>
-    </ng-template>
-    <div #elseBlock>
+    <div *ngIf="childType === 1">
+      <sc1-child *ngFor="let child of children; trackBy: trackBy"></sc1-child>
+    </div>
+    <div *ngIf="childType === 2">
       <sc1-child2
         *ngFor="let child of children; trackBy: trackBy"
         [id]="child.id"

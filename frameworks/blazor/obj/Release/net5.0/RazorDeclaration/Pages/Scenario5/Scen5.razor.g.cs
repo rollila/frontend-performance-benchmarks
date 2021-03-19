@@ -90,12 +90,13 @@ using blazor2.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario5/Scen5.razor"
+#line 27 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario5/Scen5.razor"
        
     int branchingFactor =  0;
     int treeDepth =  0;
     bool initialized = false;
     int count =  0;
+    int prop = 0;
     
     public void generate() {
         initialized = true;
@@ -103,6 +104,10 @@ using blazor2.Shared;
 
     public void increment() {
         count += 1;
+    }
+
+    public void updateTree() {
+        prop += 1;
     }
 
     public int getSubtreeDepth() {

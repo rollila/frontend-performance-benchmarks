@@ -10,6 +10,7 @@ export default class Scenario5 extends React.Component {
       treeDepth: 0,
       initialized: false,
       count: 0,
+      prop: 0,
     };
   }
 
@@ -37,6 +38,12 @@ export default class Scenario5 extends React.Component {
     });
   }
 
+  updateTree() {
+    this.setState({
+      prop: this.state.prop + 1,
+    });
+  }
+
   render() {
     return (
       <div>
@@ -59,6 +66,9 @@ export default class Scenario5 extends React.Component {
         <button id="btn-increment-root" onClick={() => this.increment()}>
           Update root
         </button>
+        <button id="btn-update-tree" onClick={() => this.updateTree()}>
+          Update entire tree
+        </button>
         {this.state.initialized
           ? [...Array(this.state.branchingFactor)].map((_, i) => (
               <div>
@@ -66,6 +76,7 @@ export default class Scenario5 extends React.Component {
                   key={i}
                   branchingFactor={this.state.branchingFactor}
                   subtreeDepth={this.state.treeDepth - 1}
+                  prop={this.state.prop}
                 />
               </div>
             ))

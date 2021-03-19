@@ -17,12 +17,14 @@
     <button id="btn-generate" @click="generate">Generate tree</button>
     <div>{{ count }}</div>
     <button id="btn-increment-root" @click="increment">Update root</button>
+    <button id="btn-update-tree" @click="updateTree">Update entire tree</button>
     <div v-if="initialized">
       <Node
         v-for="n in branchingFactor"
         :key="n"
         :branching-factor="branchingFactor"
         :subtree-depth="treeDepth - 1"
+        :prop="prop"
       />
     </div>
   </div>
@@ -41,6 +43,7 @@ export default {
       treeDepth: 0,
       initialized: false,
       count: 0,
+      prop: 0,
     };
   },
   methods: {
@@ -55,6 +58,9 @@ export default {
     },
     increment() {
       this.count += 1;
+    },
+    updateTree() {
+      this.prop += 1;
     },
   },
 };

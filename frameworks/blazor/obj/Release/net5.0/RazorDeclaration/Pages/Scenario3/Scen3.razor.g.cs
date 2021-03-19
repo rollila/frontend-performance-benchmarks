@@ -90,14 +90,20 @@ using blazor2.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario3/Scen3.razor"
+#line 34 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario3/Scen3.razor"
        
     int branchingFactor =  0;
     int treeDepth =  0;
     bool initialized = false;
     int count =  0;
+    int nodeType = 1;
     
     public void generate() {
+        initialized = true;
+    }
+
+    public void generateSimple() {
+        nodeType = 2;
         initialized = true;
     }
 

@@ -25,7 +25,7 @@
     </div>
     <div>
       <template v-if="childType === 1">
-        <Child v-for="child in children" :key="child.id" :id="child.id" />
+        <Child v-for="child in children" :key="child.id" />
       </template>
       <template v-else>
         <Child2 v-for="child in children" :key="child.id" :id="child.id" />

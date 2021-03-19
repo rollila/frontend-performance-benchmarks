@@ -1,6 +1,7 @@
 import React from "react";
 
 import Node from "./Node.js";
+import Node2 from "./Node2.js";
 
 export default class Scenario3 extends React.Component {
   constructor(props) {
@@ -10,6 +11,7 @@ export default class Scenario3 extends React.Component {
       treeDepth: 0,
       initialized: false,
       count: 0,
+      nodeType: 1,
     };
   }
 
@@ -27,6 +29,13 @@ export default class Scenario3 extends React.Component {
 
   generate() {
     this.setState({
+      initialized: true,
+    });
+  }
+
+  generateSimple() {
+    this.setState({
+      nodeType: 2,
       initialized: true,
     });
   }
@@ -55,6 +64,9 @@ export default class Scenario3 extends React.Component {
         <button id="btn-generate" onClick={() => this.generate()}>
           Generate tree
         </button>
+        <button id="btn-generate-simple" onClick={() => this.generateSimple()}>
+          Generate simpler component tree
+        </button>
         <div>{this.state.count}</div>
         <button id="btn-increment-root" onClick={() => this.increment()}>
           Update root
@@ -62,11 +74,19 @@ export default class Scenario3 extends React.Component {
         {this.state.initialized
           ? [...Array(this.state.branchingFactor)].map((_, i) => (
               <div>
-                <Node
-                  key={i}
-                  branchingFactor={this.state.branchingFactor}
-                  subtreeDepth={this.state.treeDepth - 1}
-                />
+                {this.state.nodeType === 1 ? (
+                  <Node
+                    key={i}
+                    branchingFactor={this.state.branchingFactor}
+                    subtreeDepth={this.state.treeDepth - 1}
+                  />
+                ) : (
+                  <Node2
+                    key={i}
+                    branchingFactor={this.state.branchingFactor}
+                    subtreeDepth={this.state.treeDepth - 1}
+                  />
+                )}
               </div>
             ))
           : null}

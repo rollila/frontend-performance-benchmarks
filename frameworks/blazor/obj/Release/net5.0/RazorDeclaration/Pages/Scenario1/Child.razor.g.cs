@@ -89,15 +89,6 @@ using blazor2.Shared;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 3 "/home/risto/thesis2/frameworks/blazor/Pages/Scenario1/Child.razor"
-       
-    [Parameter]
-    public int Id { get; set;}
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

@@ -1,14 +1,7 @@
 <template>
-  <div>{{ id }}</div>
+  <div>-</div>
 </template>
 
 <script>
-export default {
-  props: {
-    id: {
-      type: Number,
-      required: true,
-    },
-  },
-};
+export default {};
 </script>

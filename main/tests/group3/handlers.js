@@ -70,7 +70,7 @@ export const createTree = (branchingFactor, treeDepth) => async (
   await Performance.enable();
   await Profiler.start();
 
-  await page.click(client)("#btn-generate");
+  await page.click(client)("#btn-generate-simple");
 
   await DOM.querySelector({
     nodeId: rootNodeId,

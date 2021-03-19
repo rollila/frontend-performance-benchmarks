@@ -14,11 +14,15 @@
   <button id="btn-generate" (click)="generate()">Generate tree</button>
   <div>{{ count }}</div>
   <button id="btn-increment-root" (click)="increment()">Update root</button>
+  <button id="btn-update-tree" (click)="updateTree()">
+    Update entire tree
+  </button>
   <div *ngIf="initialized">
     <sc5-node
       *ngFor="let branch of branches"
       [branches]="branches"
       [subtreeDepth]="treeDepth - 1"
+      [prop]="prop"
     ></sc5-node>
   </div>
 </div>

@@ -1,0 +1,10 @@
+<div>
+  <div *ngIf="subtreeDepth > 0">
+    <node2
+      *ngFor="let branch of branches"
+      [branches]="branches"
+      [subtreeDepth]="subtreeDepth - 1"
+    ></node2>
+  </div>
+  -
+</div>

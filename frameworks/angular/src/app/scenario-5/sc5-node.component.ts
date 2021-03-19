@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 export class Sc5Node {
   @Input() branches: number[];
   @Input() subtreeDepth: number;
+  @Input() prop: number;
 
   count = 0;
 

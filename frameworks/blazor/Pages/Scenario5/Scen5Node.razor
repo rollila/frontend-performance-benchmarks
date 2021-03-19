@@ -1,5 +1,5 @@
 <div>
-    <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+    @Prop
     <div>
         @count
         <button class="btn-increment-node" @onclick="increment">Update leaf</button>
@@ -8,7 +8,7 @@
 
     @if(SubtreeDepth > 0) {
         @for(int i = 0; i < BranchingFactor; i += 1) {
-            <Scen5Node SubtreeDepth="@getSubtreeDepth()" BranchingFactor="@BranchingFactor" />
+            <Scen5Node SubtreeDepth="@getSubtreeDepth()" BranchingFactor="@BranchingFactor" Prop="@Prop" />
         }        
     }
 
@@ -20,6 +20,8 @@
 
     [Parameter]
     public int SubtreeDepth { get; set; }
+    [Parameter]
+    public int Prop { get; set; }
 
     int count = 0;
 

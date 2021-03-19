@@ -10,18 +10,22 @@ export class Scenario3 {
   treeDepth = 0;
   initialized = false;
   count = 0;
+  nodeType = 1;
 
   onUpdateBranchingFactor(event) {
     this.branchingFactor = parseInt(event.target.value, 10);
     this.branches = Array(this.branchingFactor)
       .fill(null)
       .map((_, i) => i);
-    console.log(this.branches);
   }
   onUpdateTreeDepth(event) {
     this.treeDepth = parseInt(event.target.value, 10);
   }
   generate() {
+    this.initialized = true;
+  }
+  generateSimple() {
+    this.nodeType = 2;
     this.initialized = true;
   }
   increment() {

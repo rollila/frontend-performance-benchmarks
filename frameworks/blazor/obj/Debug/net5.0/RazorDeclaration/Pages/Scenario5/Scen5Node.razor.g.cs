@@ -97,6 +97,8 @@ using blazor2.Shared;
 
     [Parameter]
     public int SubtreeDepth { get; set; }
+    [Parameter]
+    public int Prop { get; set; }
 
     int count = 0;
 

@@ -8,223 +8,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1952003139,
+        "HashCode": -2024828087,
         "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario3.Node",
+        "Name": "blazor2.App",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Node"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "BranchingFactor",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "BranchingFactor"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "SubtreeDepth",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "SubtreeDepth"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario3.Node"
+          "Common.TypeName": "blazor2.App"
         }
       },
       {
-        "HashCode": 1735448565,
+        "HashCode": -1632142312,
         "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario3.Node",
+        "Name": "blazor2.App",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor2.Pages.Scenario3.Node"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "BranchingFactor",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "BranchingFactor"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "SubtreeDepth",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "SubtreeDepth"
-            }
+            "TagName": "blazor2.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario3.Node",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -246702980,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario3.Scen3",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Scen3"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario3.Scen3"
-        }
-      },
-      {
-        "HashCode": 686367292,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario3.Scen3",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor2.Pages.Scenario3.Scen3"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario3.Scen3",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -862443702,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario4.Scen4Child",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Scen4Child"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Value",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Value"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4Child"
-        }
-      },
-      {
-        "HashCode": -10396568,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario4.Scen4Child",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor2.Pages.Scenario4.Scen4Child"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Value",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Value"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4Child",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -149097071,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario4.Scen4",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Scen4"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4"
-        }
-      },
-      {
-        "HashCode": -143688083,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario4.Scen4",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor2.Pages.Scenario4.Scen4"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2056616855,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario2.Scen2",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Scen2"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario2.Scen2"
-        }
-      },
-      {
-        "HashCode": 421917068,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario2.Scen2",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor2.Pages.Scenario2.Scen2"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario2.Scen2",
+          "Common.TypeName": "blazor2.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -335,7 +147,126 @@
         }
       },
       {
-        "HashCode": 1256363600,
+        "HashCode": -2056616855,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario2.Scen2",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Scen2"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario2.Scen2"
+        }
+      },
+      {
+        "HashCode": 421917068,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario2.Scen2",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor2.Pages.Scenario2.Scen2"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario2.Scen2",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -149097071,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario4.Scen4",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Scen4"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4"
+        }
+      },
+      {
+        "HashCode": -143688083,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario4.Scen4",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor2.Pages.Scenario4.Scen4"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -862443702,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario4.Scen4Child",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Scen4Child"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Value",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4Child"
+        }
+      },
+      {
+        "HashCode": -10396568,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario4.Scen4Child",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor2.Pages.Scenario4.Scen4Child"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Value",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Value"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario4.Scen4Child",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2030227936,
         "Kind": "Components.Component",
         "Name": "blazor2.Pages.Scenario1.Child",
         "AssemblyName": "blazor2",
@@ -345,23 +276,13 @@
             "TagName": "Child"
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazor2.Pages.Scenario1.Child"
         }
       },
       {
-        "HashCode": 636882130,
+        "HashCode": 331418160,
         "Kind": "Components.Component",
         "Name": "blazor2.Pages.Scenario1.Child",
         "AssemblyName": "blazor2",
@@ -371,52 +292,9 @@
             "TagName": "blazor2.Pages.Scenario1.Child"
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazor2.Pages.Scenario1.Child",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -803723452,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario1.Scen1",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Scen1"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario1.Scen1"
-        }
-      },
-      {
-        "HashCode": 1436043313,
-        "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario1.Scen1",
-        "AssemblyName": "blazor2",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor2.Pages.Scenario1.Scen1"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario1.Scen1",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -474,14 +352,47 @@
         }
       },
       {
-        "HashCode": -1815783185,
+        "HashCode": -803723452,
         "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario5.Scen5Node",
+        "Name": "blazor2.Pages.Scenario1.Scen1",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Scen5Node"
+            "TagName": "Scen1"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario1.Scen1"
+        }
+      },
+      {
+        "HashCode": 1436043313,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario1.Scen1",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor2.Pages.Scenario1.Scen1"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Scenario1.Scen1",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1701969617,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Scenario3.Node2",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Node2"
           }
         ],
         "BoundAttributes": [
@@ -504,18 +415,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario5.Scen5Node"
+          "Common.TypeName": "blazor2.Pages.Scenario3.Node2"
         }
       },
       {
-        "HashCode": -1971926372,
+        "HashCode": 225030491,
         "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario5.Scen5Node",
+        "Name": "blazor2.Pages.Scenario3.Node2",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor2.Pages.Scenario5.Scen5Node"
+            "TagName": "blazor2.Pages.Scenario3.Node2"
           }
         ],
         "BoundAttributes": [
@@ -538,73 +449,142 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario5.Scen5Node",
+          "Common.TypeName": "blazor2.Pages.Scenario3.Node2",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 427907605,
+        "HashCode": -1952003139,
         "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario5.Scen5",
+        "Name": "blazor2.Pages.Scenario3.Node",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Scen5"
+            "TagName": "Node"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "BranchingFactor",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "BranchingFactor"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SubtreeDepth",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "SubtreeDepth"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario5.Scen5"
+          "Common.TypeName": "blazor2.Pages.Scenario3.Node"
         }
       },
       {
-        "HashCode": 184216010,
+        "HashCode": 1735448565,
         "Kind": "Components.Component",
-        "Name": "blazor2.Pages.Scenario5.Scen5",
+        "Name": "blazor2.Pages.Scenario3.Node",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor2.Pages.Scenario5.Scen5"
+            "TagName": "blazor2.Pages.Scenario3.Node"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "BranchingFactor",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "BranchingFactor"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SubtreeDepth",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "SubtreeDepth"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.Pages.Scenario5.Scen5",
+          "Common.TypeName": "blazor2.Pages.Scenario3.Node",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -2024828087,
+        "HashCode": -246702980,
         "Kind": "Components.Component",
-        "Name": "blazor2.App",
+        "Name": "blazor2.Pages.Scenario3.Scen3",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Scen3"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.App"
+          "Common.TypeName": "blazor2.Pages.Scenario3.Scen3"
         }
       },
       {
-        "HashCode": -1632142312,
+        "HashCode": 686367292,
         "Kind": "Components.Component",
-        "Name": "blazor2.App",
+        "Name": "blazor2.Pages.Scenario3.Scen3",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "blazor2.App"
+            "TagName": "blazor2.Pages.Scenario3.Scen3"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor2.App",
+          "Common.TypeName": "blazor2.Pages.Scenario3.Scen3",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -961590215,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Main",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Main"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Main"
+        }
+      },
+      {
+        "HashCode": 456293374,
+        "Kind": "Components.Component",
+        "Name": "blazor2.Pages.Main",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor2.Pages.Main"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor2.Pages.Main",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -791,35 +771,120 @@
         }
       },
       {
-        "HashCode": 1464736116,
+        "HashCode": 814156020,
         "Kind": "Components.Component",
-        "Name": "__GeneratedComponent.AspNetCore_b44357ef58fe43a5222e070d13548e7040bd4efa",
+        "Name": "__GeneratedComponent.AspNetCore_921235dd94bba0e23626119a594488d3fdb8d146",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AspNetCore_b44357ef58fe43a5222e070d13548e7040bd4efa"
+            "TagName": "AspNetCore_921235dd94bba0e23626119a594488d3fdb8d146"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "BranchingFactor",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "BranchingFactor"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SubtreeDepth",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "SubtreeDepth"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Prop",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Prop"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "__GeneratedComponent.AspNetCore_b44357ef58fe43a5222e070d13548e7040bd4efa"
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_921235dd94bba0e23626119a594488d3fdb8d146"
         }
       },
       {
-        "HashCode": 1323006788,
+        "HashCode": -282665931,
         "Kind": "Components.Component",
-        "Name": "__GeneratedComponent.AspNetCore_b44357ef58fe43a5222e070d13548e7040bd4efa",
+        "Name": "__GeneratedComponent.AspNetCore_921235dd94bba0e23626119a594488d3fdb8d146",
         "AssemblyName": "blazor2",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "__GeneratedComponent.AspNetCore_b44357ef58fe43a5222e070d13548e7040bd4efa"
+            "TagName": "__GeneratedComponent.AspNetCore_921235dd94bba0e23626119a594488d3fdb8d146"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "BranchingFactor",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "BranchingFactor"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SubtreeDepth",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "SubtreeDepth"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Prop",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Prop"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "__GeneratedComponent.AspNetCore_b44357ef58fe43a5222e070d13548e7040bd4efa",
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_921235dd94bba0e23626119a594488d3fdb8d146",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -838513883,
+        "Kind": "Components.Component",
+        "Name": "__GeneratedComponent.AspNetCore_a59cd6b86a1a6c779f646d7173bc352ff03ee9f7",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AspNetCore_a59cd6b86a1a6c779f646d7173bc352ff03ee9f7"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_a59cd6b86a1a6c779f646d7173bc352ff03ee9f7"
+        }
+      },
+      {
+        "HashCode": 1430839535,
+        "Kind": "Components.Component",
+        "Name": "__GeneratedComponent.AspNetCore_a59cd6b86a1a6c779f646d7173bc352ff03ee9f7",
+        "AssemblyName": "blazor2",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "__GeneratedComponent.AspNetCore_a59cd6b86a1a6c779f646d7173bc352ff03ee9f7"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_a59cd6b86a1a6c779f646d7173bc352ff03ee9f7",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13517,6 +13582,11 @@
     {
       "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario3/Scen3.razor",
       "TargetPath": "Pages\\Scenario3\\Scen3.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/risto/thesis2/frameworks/blazor/Pages/Scenario3/Node2.razor",
+      "TargetPath": "Pages\\Scenario3\\Node2.razor",
       "FileKind": "component"
     },
     {

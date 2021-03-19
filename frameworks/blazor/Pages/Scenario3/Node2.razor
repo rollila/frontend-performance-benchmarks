@@ -1,0 +1,21 @@
+<div>
+    @if(SubtreeDepth > 0) {
+        @for(int i = 0; i < BranchingFactor; i += 1) {
+            <Node2 SubtreeDepth="@getSubtreeDepth()" BranchingFactor="@BranchingFactor" />
+        }        
+    }
+    -
+  </div>
+
+@code {
+    [Parameter]
+    public int BranchingFactor { get; set; }
+
+    [Parameter]
+    public int SubtreeDepth { get; set; }
+    public int getSubtreeDepth() {
+        return SubtreeDepth - 1;
+    }
+
+
+}

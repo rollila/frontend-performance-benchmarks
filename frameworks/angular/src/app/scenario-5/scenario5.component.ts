@@ -10,13 +10,13 @@ export class Scenario5 {
   treeDepth = 0;
   initialized = false;
   count = 0;
+  prop = 0;
 
   onUpdateBranchingFactor(event) {
     this.branchingFactor = parseInt(event.target.value, 10);
     this.branches = Array(this.branchingFactor)
       .fill(null)
       .map((_, i) => i);
-    console.log(this.branches);
   }
   onUpdateTreeDepth(event) {
     this.treeDepth = parseInt(event.target.value, 10);
@@ -26,5 +26,8 @@ export class Scenario5 {
   }
   increment() {
     this.count += 1;
+  }
+  updateTree() {
+    this.prop += 1;
   }
 }

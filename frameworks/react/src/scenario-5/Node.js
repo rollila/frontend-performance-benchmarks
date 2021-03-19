@@ -17,56 +17,7 @@ export default class Node extends React.Component {
   render() {
     return (
       <div>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
-        <span>-</span>
+        {this.props.prop}
         <div>
           {this.state.count}
           <button
@@ -132,6 +83,7 @@ export default class Node extends React.Component {
                 key={i}
                 branchingFactor={this.props.branchingFactor}
                 subtreeDepth={this.props.subtreeDepth - 1}
+                prop={this.props.prop}
               />
             ))
           : null}

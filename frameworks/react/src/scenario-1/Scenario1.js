@@ -95,7 +95,7 @@ class Scenario1 extends React.Component {
         <div id="content">
           {this.state.children.map((item) =>
             this.state.childType === 1 ? (
-              <Child key={item.id} id={item.id} />
+              <Child key={item.id} />
             ) : (
               <Child2 key={item.id} id={item.id} />
             )

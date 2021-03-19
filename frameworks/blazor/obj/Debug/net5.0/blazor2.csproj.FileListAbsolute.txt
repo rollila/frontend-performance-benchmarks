@@ -1304,3 +1304,5 @@
 /home/risto/thesis2/frameworks/blazor/obj/Debug/net5.0/blazor2.dll
 /home/risto/thesis2/frameworks/blazor/obj/Debug/net5.0/ref/blazor2.dll
 /home/risto/thesis2/frameworks/blazor/obj/Debug/net5.0/blazor2.pdb
+/home/risto/thesis2/frameworks/blazor/obj/Debug/net5.0/RazorDeclaration/Pages/Scenario3/Node2.razor.g.cs
+/home/risto/thesis2/frameworks/blazor/obj/Debug/net5.0/Razor/Pages/Scenario3/Node2.razor.g.cs

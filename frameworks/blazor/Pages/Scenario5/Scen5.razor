@@ -14,10 +14,11 @@
     <button id="btn-generate" @onclick="generate">Generate tree</button>
     <div>@count</div>
     <button id="btn-increment-root" @onclick="increment">Update root</button>
+    <button id="btn-update-tree" @onclick="updateTree">Update entire tree</button>
     @if(initialized) {
     <div>
         @for(int i = 0; i < branchingFactor; i += 1) {
-            <Scen5Node @key="@i" BranchingFactor="@branchingFactor" SubtreeDepth="@getSubtreeDepth()" />
+            <Scen5Node @key="@i" BranchingFactor="@branchingFactor" SubtreeDepth="@getSubtreeDepth()" Prop="@prop" />
         }
     </div>
     }
@@ -28,6 +29,7 @@
     int treeDepth =  0;
     bool initialized = false;
     int count =  0;
+    int prop = 0;
     
     public void generate() {
         initialized = true;
@@ -35,6 +37,10 @@
 
     public void increment() {
         count += 1;
+    }
+
+    public void updateTree() {
+        prop += 1;
     }
 
     public int getSubtreeDepth() {

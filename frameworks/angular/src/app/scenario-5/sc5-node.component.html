@@ -1,14 +1,5 @@
 <div>
-  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-  <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-  ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
+  {{ prop }}
   <div>
     {{ count }}
     <button class="btn-increment-node" (click)="increment()">
@@ -31,6 +22,7 @@
         *ngFor="let branch of branches"
         [branches]="branches"
         [subtreeDepth]="subtreeDepth - 1"
+        [prop]="prop"
       ></sc5-node>
     </div>
   </ng-template>

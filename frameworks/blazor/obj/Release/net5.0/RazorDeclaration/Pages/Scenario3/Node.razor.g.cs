@@ -108,8 +108,6 @@ using blazor2.Shared;
         return SubtreeDepth - 1;
     }
 
-
-
 #line default
 #line hidden
 #nullable disable

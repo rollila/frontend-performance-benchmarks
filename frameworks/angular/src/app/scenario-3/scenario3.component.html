@@ -12,13 +12,23 @@
     (change)="onUpdateTreeDepth($event)"
   />
   <button id="btn-generate" (click)="generate()">Generate tree</button>
+  <button id="btn-generate-simple" (click)="generateSimple()">
+    Generate simpler component tree
+  </button>
   <div>{{ count }}</div>
   <button id="btn-increment-root" (click)="increment()">Update root</button>
-  <div *ngIf="initialized">
+  <div *ngIf="initialized && nodeType === 1">
     <node
       *ngFor="let branch of branches"
       [branches]="branches"
       [subtreeDepth]="treeDepth - 1"
     ></node>
+  </div>
+  <div *ngIf="initialized && nodeType === 2">
+    <node2
+      *ngFor="let branch of branches"
+      [branches]="branches"
+      [subtreeDepth]="treeDepth - 1"
+    ></node2>
   </div>
 </div>

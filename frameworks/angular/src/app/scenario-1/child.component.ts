@@ -1,9 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'sc1-child',
-  template: ` <div>{{ id }}</div>`,
+  template: ` <div>-</div>`,
 })
-export class Child {
-  @Input() id: number;
-}
+export class Child {}

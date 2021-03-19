@@ -1,15 +1,5 @@
 <template>
   <div>
-    <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-    ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-    <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-    ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-    <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-    ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-    <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-    ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
-    <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span
-    ><span>-</span><span>-</span><span>-</span><span>-</span><span>-</span>
     <div>{{ count }}</div>
     <button @click="increment" class="btn-increment-node">Increment</button>
     <span>-</span><span>-</span><span>-</span><span>-</span><span>-</span

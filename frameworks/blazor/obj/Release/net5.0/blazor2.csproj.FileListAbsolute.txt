@@ -1304,3 +1304,5 @@
 /home/risto/thesis2/frameworks/blazor/obj/Release/net5.0/build-gz/dIbCYhM1.gz
 /home/risto/thesis2/frameworks/blazor/obj/Release/net5.0/build-gz/Q8X6Ll0B.gz
 /home/risto/thesis2/frameworks/blazor/obj/Release/net5.0/build-gz/fG9eRugQ.gz
+/home/risto/thesis2/frameworks/blazor/obj/Release/net5.0/RazorDeclaration/Pages/Scenario3/Node2.razor.g.cs
+/home/risto/thesis2/frameworks/blazor/obj/Release/net5.0/Razor/Pages/Scenario3/Node2.razor.g.cs

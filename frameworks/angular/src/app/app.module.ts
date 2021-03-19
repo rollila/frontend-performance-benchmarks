@@ -10,6 +10,7 @@ import { Row } from './scenario-2/row.component';
 import { Cell } from './scenario-2/cell.component';
 import { Scenario3 } from './scenario-3/scenario3.component';
 import { Node } from './scenario-3/node.component';
+import { Node2 } from './scenario-3/node2.component';
 import { Scenario4 } from './scenario-4/scenario4.component';
 import { Child as Scenario4Child } from './scenario-4/child.component';
 import { Scenario5 } from './scenario-5/scenario5.component';
@@ -25,6 +26,7 @@ import { Sc5Node } from './scenario-5/sc5-node.component';
     Cell,
     Scenario3,
     Node,
+    Node2,
     Scenario4,
     Scenario4Child,
     Scenario5,

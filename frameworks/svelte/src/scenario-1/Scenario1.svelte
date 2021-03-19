@@ -61,7 +61,7 @@
     <div>
       {#if childType === 1}
         {#each children as child (child.id)}
-          <Child id={child.id} />
+          <Child />
         {/each}
       {:else}
         {#each children as child (child.id)}
