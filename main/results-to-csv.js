@@ -34,7 +34,7 @@ scenarioResults.forEach((scenario) => {
     times.push(header);
   }
 
-  if (group === "group3") {
+  if (group === "group3" || group === "group5") {
     header = header.concat(
       headerData.map((item) => item.numComponents).join(",")
     );
