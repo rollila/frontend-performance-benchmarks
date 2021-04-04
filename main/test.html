@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+<script>
+  const root = document.querySelector("#root");
+  for (let i = 0; i < 50000; i += 1) {
+    const el = document.createElement("div");
+    el.textContent = "-";
+    root.appendChild(el);
+  }
+</script>

@@ -1,15 +1,18 @@
+import * as fs from "fs";
+
 import * as page from "../../utils/page.js";
 
 export const createComponents = (numComponents) => async (
   client,
   rootNodeId
 ) => {
-  const { DOM, Performance, Profiler } = client;
+  const { DOM, Memory, Performance, Profiler } = client;
 
   await page.setValue(client)("#input-num-to-create", numComponents);
 
   await Performance.enable();
   await Profiler.start();
+  await Memory.startSampling();
 
   await page.click(client)("#btn-generate-components");
 
@@ -21,6 +24,9 @@ export const createComponents = (numComponents) => async (
   const metrics = await Performance.getMetrics();
   await Performance.disable();
   const trace = await Profiler.stop();
+  const memProfile = await Memory.getSamplingProfile();
+  await Memory.stopSampling();
+  fs.writeFileSync("./memtest.json", JSON.stringify(memProfile));
   await Profiler.disable();
 
   return { metrics, trace };
